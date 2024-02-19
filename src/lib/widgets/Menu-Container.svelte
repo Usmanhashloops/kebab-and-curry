@@ -38,7 +38,7 @@
      Book Your Table Now
     </div>
   </a>
-  <!-- <disable too -->
+  <!-- <disable -->
    <!-- <div class="flex-icon-Dine">
     <img src={"/location/cutlery.png"} class="cutleryImage" />
     <div class="DineInHeading">Dine In</div>
