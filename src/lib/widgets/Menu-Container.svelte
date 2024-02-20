@@ -33,7 +33,7 @@
     Reserve your table for South Asian delights today!
     <!-- {heading} -->
    </h2>
-   <a class="borderbottom" href="https://guestcenter.opentable.com/restaurant/1347790/reservation-widget">
+   <a class="borderbottom" href="https://www.opentable.com/r/kabab-and-currys-cupertino">
     <div class="btn-BookTable">
      Book Your Table Now
     </div>
