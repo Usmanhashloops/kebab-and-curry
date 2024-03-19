@@ -5,8 +5,7 @@ export let restaurantData = [
     title: "Santa Clara",
     // title: "Kabab and Curry's\nSanta Clara",
     imageTitle: "Santa Clara",
-    description:
-      "Creating wonderful desi culinary\nmemories in popular Santa Clara",
+    description: "Creating wonderful desi culinary\nmemories in popular Santa Clara",
     backgroundImageUrl: "/location/Santa-Clara.jpg",
     backgroundImageLandscapeUrl: "/location/Santa-Clara-Landscape.jpg",
     bannerBackgroundImageUrl: "/location/banner.jpg",
@@ -32,8 +31,7 @@ export let restaurantData = [
         items: [
           {
             title: "Beef Seekh Kabab",
-            description:
-              "Tender minced beef, blended with aromatic herbs and spices, grilled the South Asian way.",
+            description: "Tender minced beef, blended with aromatic herbs and spices, grilled the South Asian way.",
             cost: "$4.50",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -41,8 +39,7 @@ export let restaurantData = [
           },
           {
             title: "Chaat",
-            description:
-              "Lentil balls soaked in creamy yogurt with a host of tangy spices & served with chutney.",
+            description: "Lentil balls soaked in creamy yogurt with a host of tangy spices & served with chutney.",
             cost: "$9.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -50,8 +47,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Barha (Half / Full)",
-            description:
-              "House-spiced chicken, marinated with classic South Asian flavors & traditional spices, cooked to perfection.",
+            description: "House-spiced chicken, marinated with classic South Asian flavors & traditional spices, cooked to perfection.",
             cost: "$16.00/$30.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -59,8 +55,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Boti Kabab",
-            description:
-              "Boneless chicken cubes marinated in a blend of spices and grilled to preserve the South Asian tenderness.",
+            description: "Boneless chicken cubes marinated in a blend of spices and grilled to preserve the South Asian tenderness.",
             cost: "$14.99",
             class: "large",
             img: " /location/deliveryCourier.png",
@@ -68,8 +63,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Seekh Kabab",
-            description:
-              "Succulent chicken mince, infused with spices, grilled on skewers over an open charcoal flame. ",
+            description: "Succulent chicken mince, infused with spices, grilled on skewers over an open charcoal flame. ",
             cost: "$4.50",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -77,8 +71,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Wing Masala",
-            description:
-              "Juicy chicken wings marinated in a variety of spices & cooked in a clay oven for maximum flavor.",
+            description: "Juicy chicken wings marinated in a variety of spices & cooked in a clay oven for maximum flavor.",
             cost: "$16.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -86,8 +79,7 @@ export let restaurantData = [
           },
           {
             title: "Haray Bharay Kabab",
-            description:
-              "Delicious blend of green peas and potato packed onto a skewer and grilled to perfection for a mouthwatering delight.",
+            description: "Delicious blend of green peas and potato packed onto a skewer and grilled to perfection for a mouthwatering delight.",
             cost: "$4.50",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -95,8 +87,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Chops",
-            description:
-              "Tender lamb chops marinated in herbs and spices, cooked over an open grill to charcoaled perfection.",
+            description: "Tender lamb chops marinated in herbs and spices, cooked over an open grill to charcoaled perfection.",
             cost: "$17.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -104,8 +95,7 @@ export let restaurantData = [
           },
           {
             title: "Malai Tikka",
-            description:
-              "Succulent cubes of chicken breast marinated in cream and skewered over a charcoal grill.",
+            description: "Succulent cubes of chicken breast marinated in cream and skewered over a charcoal grill.",
             cost: "$16.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -113,8 +103,7 @@ export let restaurantData = [
           },
           {
             title: "Murgh Malai",
-            description:
-              "Chicken marinated in creamy spices and grilled to smoky perfection for a mouthwatering taste.",
+            description: "Chicken marinated in creamy spices and grilled to smoky perfection for a mouthwatering taste.",
             cost: "$15.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -122,8 +111,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom Tikka",
-            description:
-              "Juicy mushrooms prepared in a clay oven after being marinated in spices & served with grilled vegetables",
+            description: "Juicy mushrooms prepared in a clay oven after being marinated in spices & served with grilled vegetables",
             cost: "$14.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -131,8 +119,7 @@ export let restaurantData = [
           },
           {
             title: "Salmon Tikka",
-            description:
-              " The Salmon Tikka is a perfect blend of smoky and Spicy Flavors",
+            description: " The Salmon Tikka is a perfect blend of smoky and Spicy Flavors",
             cost: "$19.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -140,8 +127,7 @@ export let restaurantData = [
           },
           {
             title: "Samosa",
-            description:
-              "Crispy pastry stuffed with spiced vegetables or meat, served with chutney.",
+            description: "Crispy pastry stuffed with spiced vegetables or meat, served with chutney.",
             cost: "$1.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -149,8 +135,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Chicken Breast",
-            description:
-              "Chicken breast piece soaked in homemade spices and cooked to satisfaction over a charcoal grill.",
+            description: "Chicken breast piece soaked in homemade spices and cooked to satisfaction over a charcoal grill.",
             cost: "$7.50",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -158,8 +143,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Chicken Leg",
-            description:
-              "A juicy leg quarter infused with house-made spices and grilled over charcoal for a traditional flavor.",
+            description: "A juicy leg quarter infused with house-made spices and grilled over charcoal for a traditional flavor.",
             cost: "$6.25",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -167,8 +151,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Fish",
-            description:
-              "Succulent fish marinated in aromatic spices, grilled over charcoal & served with rice and special sauce.",
+            description: "Succulent fish marinated in aromatic spices, grilled over charcoal & served with rice and special sauce.",
             cost: "$16.99",
             class: "large",
             img: " /location/deliveryCourier.png",
@@ -176,8 +159,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Shrimps",
-            description:
-              "Jumbo shrimp marinated in South Asian spices, grilled till smoked & served with rice and special sauce.",
+            description: "Jumbo shrimp marinated in South Asian spices, grilled till smoked & served with rice and special sauce.",
             cost: "$16.99",
             class: "large",
             img: " /location/deliveryCourier.png",
@@ -185,8 +167,7 @@ export let restaurantData = [
           },
           {
             title: "Tikka Paneer",
-            description:
-              "Cottage cheese cubes marinated in traditional spices, cooked in a clay oven & served piping hot.",
+            description: "Cottage cheese cubes marinated in traditional spices, cooked in a clay oven & served piping hot.",
             cost: "$14.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -194,8 +175,7 @@ export let restaurantData = [
           },
           {
             title: "Veggie Cutlet",
-            description:
-              "Spicy vegetable patty made with potatoes, carrots, and green peas. A South Asian special.",
+            description: "Spicy vegetable patty made with potatoes, carrots, and green peas. A South Asian special.",
             cost: "$7.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -206,13 +186,11 @@ export let restaurantData = [
       {
         category: "Lamb Delicacies",
         src: "/tandoori.jpg",
-        image:
-          "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/dinner-min-1-1024x256-1.jpg",
+        image: "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/dinner-min-1-1024x256-1.jpg",
         items: [
           {
             title: "Lamb Korma",
-            description:
-              "Succulent pieces of lamb cooked in a rich, creamy sauce of yogurt, spices and onion gravy.",
+            description: "Succulent pieces of lamb cooked in a rich, creamy sauce of yogurt, spices and onion gravy.",
             cost: "$14.25",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -220,8 +198,7 @@ export let restaurantData = [
           },
           {
             title: "Saag Lamb",
-            description:
-              "Tender lamb chunks cooked together with spinach, topped off with butter to create the perfect blend of taste.",
+            description: "Tender lamb chunks cooked together with spinach, topped off with butter to create the perfect blend of taste.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -230,8 +207,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Stew",
-            description:
-              "A hearty and aromatic stew of tender lamb cooked with onions spices and simmered slowly to perfection.",
+            description: "A hearty and aromatic stew of tender lamb cooked with onions spices and simmered slowly to perfection.",
             cost: "$14.99",
             //Done
             class: "large",
@@ -240,8 +216,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Kadai",
-            description:
-              "Tender lamb cooked with fresh bell peppers, tomatoes, onions, and garlic in a tomato-based sauce.",
+            description: "Tender lamb cooked with fresh bell peppers, tomatoes, onions, and garlic in a tomato-based sauce.",
             cost: "$15.99",
             //Done
             class: "large",
@@ -250,8 +225,7 @@ export let restaurantData = [
           },
           {
             title: "Bhuna Gosht",
-            description:
-              "Tender lamb cooked in a tomato-based sauce with chili peppers and black pepper till rich and thick.",
+            description: "Tender lamb cooked in a tomato-based sauce with chili peppers and black pepper till rich and thick.",
             cost: "$15.99",
             //Done
             class: "large",
@@ -260,8 +234,7 @@ export let restaurantData = [
           },
           {
             title: "Beef Keema Aaloo",
-            description:
-              "A classic South Asian dish made with spiced minced beef and potatoes, evoking the warm, hearty feeling of home.",
+            description: "A classic South Asian dish made with spiced minced beef and potatoes, evoking the warm, hearty feeling of home.",
             cost: "$14.99",
             //Done
             class: "small",
@@ -270,8 +243,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Nihaari",
-            description:
-              "Lamb nihaari is slow-cooked made with succulent lamb meat and blend of aromatic spices",
+            description: "Lamb nihaari is slow-cooked made with succulent lamb meat and blend of aromatic spices",
             cost: "$16.99",
             //Done
             class: "small",
@@ -280,8 +252,7 @@ export let restaurantData = [
           },
           {
             title: "Rogan Josh",
-            description:
-              "Lamb cooked in a creamy tomato gravy with a heady combination of intense spices, straight out of the Kashmir Valley.",
+            description: "Lamb cooked in a creamy tomato gravy with a heady combination of intense spices, straight out of the Kashmir Valley.",
             cost: "$18.99",
             //Done
             class: "small",
@@ -296,8 +267,7 @@ export let restaurantData = [
         items: [
           {
             title: "Chicken Tikka Masala",
-            description:
-              "Juicy grilled chicken cooked in a creamy tomato-based sauce with a blend of aromatic spices.",
+            description: "Juicy grilled chicken cooked in a creamy tomato-based sauce with a blend of aromatic spices.",
             cost: "$14.99",
             //Done
             class: "small",
@@ -306,8 +276,7 @@ export let restaurantData = [
           },
           {
             title: "Butter Chicken",
-            description:
-              "Tender boneless chicken leg pieces marinated in spices & cooked in a tomato and onion sauce with cream.",
+            description: "Tender boneless chicken leg pieces marinated in spices & cooked in a tomato and onion sauce with cream.",
             cost: "$14.99",
             //Done
             class: "large",
@@ -316,8 +285,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Korma",
-            description:
-              "Tender chicken pieces cooked in a rich, creamy sauce with yogurt, onion gravy & aromatic spices.",
+            description: "Tender chicken pieces cooked in a rich, creamy sauce with yogurt, onion gravy & aromatic spices.",
             cost: "$13.99",
             //Done
             class: "small",
@@ -326,8 +294,7 @@ export let restaurantData = [
           },
           {
             title: "Saag Chicken",
-            description:
-              "Tender chicken cooked in a creamy spinach sauce with a blend of aromatic spices.",
+            description: "Tender chicken cooked in a creamy spinach sauce with a blend of aromatic spices.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -336,8 +303,7 @@ export let restaurantData = [
           },
           {
             title: "Murgh Choley",
-            description:
-              "chicken cooked with chickpeas in a spicy tomato-based sauce infused with aromatic spices.",
+            description: "chicken cooked with chickpeas in a spicy tomato-based sauce infused with aromatic spices.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -346,8 +312,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Kadai ",
-            description:
-              "Juicy chicken pieces cooked with bell peppers, onions, sautéed garlic & aromatic spices in a thick tomato-based sauce.",
+            description: "Juicy chicken pieces cooked with bell peppers, onions, sautéed garlic & aromatic spices in a thick tomato-based sauce.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -356,8 +321,7 @@ export let restaurantData = [
           },
           {
             title: "Achari Chicken",
-            description:
-              "Tender chicken marinated in a tangy blend of pickling spices prepared in an earthen clay pot.",
+            description: "Tender chicken marinated in a tangy blend of pickling spices prepared in an earthen clay pot.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -366,8 +330,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Kofta",
-            description:
-              "Chicken kofta is a delicious and savory dish made with chicken, herbs, and spices, formed into balls and then grilled or baked to perfection.",
+            description: "Chicken kofta is a delicious and savory dish made with chicken, herbs, and spices, formed into balls and then grilled or baked to perfection.",
             cost: "$15.99",
             //Done
             class: "small",
@@ -376,8 +339,7 @@ export let restaurantData = [
           },
           {
             title: "Chilli Chicken",
-            description:
-              "Crispy fried chicken cooked in a house-special batter & served with our signature sauce.",
+            description: "Crispy fried chicken cooked in a house-special batter & served with our signature sauce.",
             cost: "$17.99",
             //Done
             class: "small",
@@ -387,8 +349,7 @@ export let restaurantData = [
 
           {
             title: "CTM Sauce",
-            description:
-              "Creamy and flavorful sauce made with tomatoes, cream, and a variety of spices",
+            description: "Creamy and flavorful sauce made with tomatoes, cream, and a variety of spices",
             cost: "$7.00",
             //Done
             class: "small",
@@ -409,13 +370,11 @@ export let restaurantData = [
       {
         category: "Vegetarian Delights",
         src: "/veggidelight.jpg",
-        image:
-          "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/mozzarella-1575066_1920.jpg",
+        image: "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/mozzarella-1575066_1920.jpg",
         items: [
           {
             title: "Aaloo Palak",
-            description:
-              "Tender potatoes and spinach cooked in a creamy tomato and onion sauce with a blend of aromatic spices.",
+            description: "Tender potatoes and spinach cooked in a creamy tomato and onion sauce with a blend of aromatic spices.",
             cost: "$12.99",
             //Done
             class: "small",
@@ -424,8 +383,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Baigun",
-            description:
-              "Potatoes and eggplant come together in a wonderful mix of tomato and onion sauce to create a delicious veg offering.",
+            description: "Potatoes and eggplant come together in a wonderful mix of tomato and onion sauce to create a delicious veg offering.",
             cost: "$12.99",
             //Done
             class: "small",
@@ -434,8 +392,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Gobi",
-            description:
-              "Fresh potatoes and cauliflower prepared in a creamy tomato and onion sauce. A vegetarian delight.",
+            description: "Fresh potatoes and cauliflower prepared in a creamy tomato and onion sauce. A vegetarian delight.",
             cost: "$12.99",
             //Done
             class: "small",
@@ -444,8 +401,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Mutter",
-            description:
-              "The classic dish of potatoes and peas, made with our special blend of tomato and onion sauce.",
+            description: "The classic dish of potatoes and peas, made with our special blend of tomato and onion sauce.",
             cost: "$11.99",
             //Done
             class: "small",
@@ -454,8 +410,7 @@ export let restaurantData = [
           },
           {
             title: "Nav Ratan Korma",
-            description:
-              "The best of the vegetable kingdom comes together in this mixed dish that's equal parts exquisite and delicious.",
+            description: "The best of the vegetable kingdom comes together in this mixed dish that's equal parts exquisite and delicious.",
             cost: "$12.99",
             //Done
             class: "small",
@@ -464,8 +419,7 @@ export let restaurantData = [
           },
           {
             title: "Choley",
-            description:
-              "Chickpeas prepared in a tomato and onion sauce with a combination of aromatic spices. ",
+            description: "Chickpeas prepared in a tomato and onion sauce with a combination of aromatic spices. ",
             cost: "$11.99",
             //Done
             class: "small",
@@ -474,8 +428,7 @@ export let restaurantData = [
           },
           {
             title: "Daal Fry",
-            description:
-              "A lentil-based vegetarian dish with a crispy texture prepared with tomato and onions & sautéed with garlic.",
+            description: "A lentil-based vegetarian dish with a crispy texture prepared with tomato and onions & sautéed with garlic.",
             cost: "$10.99",
             //Done
             class: "small",
@@ -484,8 +437,7 @@ export let restaurantData = [
           },
           {
             title: "Daal Makhni",
-            description:
-              "A creamy lentil-based vegetarian dish, slow-cooked with aromatic spices and finished with a touch of cream.",
+            description: "A creamy lentil-based vegetarian dish, slow-cooked with aromatic spices and finished with a touch of cream.",
             cost: "$11.99",
             //Done
             class: "small",
@@ -494,8 +446,7 @@ export let restaurantData = [
           },
           {
             title: "Bhindi Masala",
-            description:
-              "Okra cooked in a blend of spices with onions and tomatoes for a flavorful vegetarian dish.",
+            description: "Okra cooked in a blend of spices with onions and tomatoes for a flavorful vegetarian dish.",
             cost: "$13.99",
             //Done
             class: "small",
@@ -504,8 +455,7 @@ export let restaurantData = [
           },
           {
             title: "Palak Paneer",
-            description:
-              "Cottage cheese cubes cooked in a creamy spinach sauce with a blend of aromatic spices.",
+            description: "Cottage cheese cubes cooked in a creamy spinach sauce with a blend of aromatic spices.",
             cost: "$13.99",
             //Done
             class: "large",
@@ -514,8 +464,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Tikka Masala",
-            description:
-              "Homemade cottage cheese cooked in a creamy tomato-based sauce with sautéed bell peppers, onion and mushrooms.",
+            description: "Homemade cottage cheese cooked in a creamy tomato-based sauce with sautéed bell peppers, onion and mushrooms.",
             cost: "$14.25",
             //Done
             class: "small",
@@ -524,8 +473,7 @@ export let restaurantData = [
           },
           {
             title: "Mutter Paneer",
-            description:
-              "Mutter paneer is a creamy, flavorful vegetarian dish featuring soft paneer cheese ",
+            description: "Mutter paneer is a creamy, flavorful vegetarian dish featuring soft paneer cheese ",
             cost: "$14.25",
             //Done
             class: "small",
@@ -534,8 +482,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom Mutter",
-            description:
-              "Mushrooms, green peas and onions come together to create a veg dish that's a unique brand of delicious.",
+            description: "Mushrooms, green peas and onions come together to create a veg dish that's a unique brand of delicious.",
             cost: "$14.25",
             //Done
             class: "small",
@@ -544,8 +491,7 @@ export let restaurantData = [
           },
           {
             title: "Kadee Pakoda",
-            description:
-              "Kadee Pakoda is a tangy and flavorful North Indian dish featuring deep-fried vegetable fritters in a yogurt-based sauce.",
+            description: "Kadee Pakoda is a tangy and flavorful North Indian dish featuring deep-fried vegetable fritters in a yogurt-based sauce.",
             cost: "$12.99",
             //Done
             class: "small",
@@ -554,8 +500,7 @@ export let restaurantData = [
           },
           {
             title: "Baigun Bharta",
-            description:
-              "Baigun Bharta is a smoky and flavorful North Indian dish made with roasted eggplant and spices.",
+            description: "Baigun Bharta is a smoky and flavorful North Indian dish made with roasted eggplant and spices.",
             cost: "$13.99",
             //Done
             class: "small",
@@ -564,8 +509,7 @@ export let restaurantData = [
           },
           {
             title: "Palak",
-            description:
-              "A simple vegetarian dish made with creamy spinach and a blend of aromatic spices. Prepared using our special recipe.",
+            description: "A simple vegetarian dish made with creamy spinach and a blend of aromatic spices. Prepared using our special recipe.",
             cost: "$13.99",
             //Done
             class: "small",
@@ -580,8 +524,7 @@ export let restaurantData = [
         items: [
           {
             title: "Lamb Biryaani",
-            description:
-              "Lamb pieces mixed with aromatic spices and rice, slow-cooked in a sealed pot till the flavor sets in.",
+            description: "Lamb pieces mixed with aromatic spices and rice, slow-cooked in a sealed pot till the flavor sets in.",
             cost: "$15.99",
             //Done
             class: "large",
@@ -590,8 +533,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Biryaani",
-            description:
-              "A rich blend of rice, traditional spices and mutton that reaches perfection through a slow-cooking process.",
+            description: "A rich blend of rice, traditional spices and mutton that reaches perfection through a slow-cooking process.",
             cost: "$19.99",
             //Done
             class: "large",
@@ -600,8 +542,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Biryaani",
-            description:
-              "The classic biryani made with chicken cooked in layers of rice and flavor-filled spices. Slow-cooked to perfection within a sealed utensil.",
+            description: "The classic biryani made with chicken cooked in layers of rice and flavor-filled spices. Slow-cooked to perfection within a sealed utensil.",
             cost: "$15.99",
             //Done
             class: "large",
@@ -610,8 +551,7 @@ export let restaurantData = [
           },
           {
             title: "vegetable Biryaani",
-            description:
-              "Potatoes dominate this special mix of biryaani, prepared with the same blend of spices and rice.",
+            description: "Potatoes dominate this special mix of biryaani, prepared with the same blend of spices and rice.",
             cost: "$13.99",
             //Done
             class: "small",
@@ -626,8 +566,7 @@ export let restaurantData = [
         items: [
           {
             title: "Jeera Rice",
-            description:
-              "Basmati rice cooked the South Asian way with a unique blend of jeera and spices to complement any dish.",
+            description: "Basmati rice cooked the South Asian way with a unique blend of jeera and spices to complement any dish.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -636,8 +575,7 @@ export let restaurantData = [
           },
           {
             title: "Naan",
-            description:
-              "The classic all-purpose flour flatbread of the South Asian region. A staple with most dishes.",
+            description: "The classic all-purpose flour flatbread of the South Asian region. A staple with most dishes.",
             cost: "$1.99",
             //Done,
             class: "small",
@@ -646,8 +584,7 @@ export let restaurantData = [
           },
           {
             title: "Butter Naan",
-            description:
-              "A butter-soaked version of the famous flatbread, adding more to any meal it's paired with.",
+            description: "A butter-soaked version of the famous flatbread, adding more to any meal it's paired with.",
             cost: "$2.99",
             //Done
             class: "small",
@@ -656,8 +593,7 @@ export let restaurantData = [
           },
           {
             title: "Onion Naan",
-            description:
-              "Classic flatbread topped with chopped onions and baked in a traditional clay oven.",
+            description: "Classic flatbread topped with chopped onions and baked in a traditional clay oven.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -666,8 +602,7 @@ export let restaurantData = [
           },
           {
             title: "Garlic Naan",
-            description:
-              "A mouthwatering infusion of garlic paste & herbs dominate your food palette with this flatbread.",
+            description: "A mouthwatering infusion of garlic paste & herbs dominate your food palette with this flatbread.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -676,8 +611,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Qeema Naan",
-            description:
-              "A delicious naan bread stuffed with minced chicken and cooked to perfection in a traditional clay oven.",
+            description: "A delicious naan bread stuffed with minced chicken and cooked to perfection in a traditional clay oven.",
             cost: "$6.99",
             //Done
             class: "small",
@@ -686,8 +620,7 @@ export let restaurantData = [
           },
           {
             title: "Beef Qeema Naan",
-            description:
-              "A delicious naan bread stuffed with minced beef and cooked to perfection in a traditional clay oven.",
+            description: "A delicious naan bread stuffed with minced beef and cooked to perfection in a traditional clay oven.",
             cost: "$6.99",
             //Done
             class: "small",
@@ -696,8 +629,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Naan",
-            description:
-              "Flatbread prepared with a generous helping of cottage cheese that melts in your mouth.",
+            description: "Flatbread prepared with a generous helping of cottage cheese that melts in your mouth.",
             cost: "$5.99",
             //Done
             class: "small",
@@ -706,8 +638,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Roti",
-            description:
-              "Flatbread that is crispy on the outside while being soft and plump on the inside.",
+            description: "Flatbread that is crispy on the outside while being soft and plump on the inside.",
             cost: "$2.99",
             //Done
             class: "small",
@@ -717,8 +648,7 @@ export let restaurantData = [
 
           {
             title: "Butter Roti",
-            description:
-              "A variation of the flatbread made with whole wheat flour and topped off by a brushing of melted butter.",
+            description: "A variation of the flatbread made with whole wheat flour and topped off by a brushing of melted butter.",
             cost: "$3.50",
             //Done
             class: "small",
@@ -727,8 +657,7 @@ export let restaurantData = [
           },
           {
             title: "Garlic Roti",
-            description:
-              "Whole wheat flatbread mixed with a fine garlic paste to complement any and every meal.",
+            description: "Whole wheat flatbread mixed with a fine garlic paste to complement any and every meal.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -737,8 +666,7 @@ export let restaurantData = [
           },
           {
             title: "Onion Roti",
-            description:
-              "Classic whole wheat flatbread topped with chopped onions for a delicious crunch.",
+            description: "Classic whole wheat flatbread topped with chopped onions for a delicious crunch.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -747,8 +675,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Roti",
-            description:
-              "A delicious flatbread that houses rich cottage cheese that is cooked to perfection.",
+            description: "A delicious flatbread that houses rich cottage cheese that is cooked to perfection.",
             cost: "$5.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -756,8 +683,7 @@ export let restaurantData = [
           },
           {
             title: "Laccha Parantha",
-            description:
-              "Laccha Parantha is a delicious and flaky North Indian bread made with layers of dough and ghee.",
+            description: "Laccha Parantha is a delicious and flaky North Indian bread made with layers of dough and ghee.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -772,8 +698,7 @@ export let restaurantData = [
         items: [
           {
             title: "Mango Lassi",
-            description:
-              "A refreshing yogurt-based drink blended with fresh mango pulp for a sweet and tangy flavor.",
+            description: "A refreshing yogurt-based drink blended with fresh mango pulp for a sweet and tangy flavor.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -782,8 +707,7 @@ export let restaurantData = [
           },
           {
             title: "Salt Lassi",
-            description:
-              "A refreshing yogurt-based drink blended with a pinch of salt and roasted cumin for a savory and refreshing taste.",
+            description: "A refreshing yogurt-based drink blended with a pinch of salt and roasted cumin for a savory and refreshing taste.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -792,8 +716,7 @@ export let restaurantData = [
           },
           {
             title: "Sweet Lassi",
-            description:
-              "A sweet and refreshing yogurt-based drink blended with sugar and flavored with rosewater or cardamom.",
+            description: "A sweet and refreshing yogurt-based drink blended with sugar and flavored with rosewater or cardamom.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -802,8 +725,7 @@ export let restaurantData = [
           },
           {
             title: "Soda Can",
-            description:
-              "Choose from our selection of carbonated drinks to quench your thirst.",
+            description: "Choose from our selection of carbonated drinks to quench your thirst.",
             cost: "$2.50",
             //Done
             class: "small",
@@ -838,8 +760,7 @@ export let restaurantData = [
           },
           {
             title: "Tea / Chai",
-            description:
-              "A classic South Asian tea brewed with a blend of aromatic spices and served with milk and sugar.",
+            description: "A classic South Asian tea brewed with a blend of aromatic spices and served with milk and sugar.",
             cost: "$3.99",
             //Done
             class: "small",
@@ -854,8 +775,7 @@ export let restaurantData = [
         items: [
           {
             title: "Salad",
-            description:
-              "A variety of vegetables including tomatoes, cucumbers, onions, etc. that go great with many dishes.",
+            description: "A variety of vegetables including tomatoes, cucumbers, onions, etc. that go great with many dishes.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -864,8 +784,7 @@ export let restaurantData = [
           },
           {
             title: "Raita",
-            description:
-              "A yogurt-based condiment that is popular with everything from meat to rice dishes.",
+            description: "A yogurt-based condiment that is popular with everything from meat to rice dishes.",
             cost: "$2.50",
             //Done
             class: "small",
@@ -874,8 +793,7 @@ export let restaurantData = [
           },
           {
             title: "Pickle",
-            description:
-              "The traditional 'achaar' from South Asia prepared in oils & renowned for its unique tangy flavor.",
+            description: "The traditional 'achaar' from South Asia prepared in oils & renowned for its unique tangy flavor.",
             cost: "$1.99",
             //Done
             class: "small",
@@ -890,8 +808,7 @@ export let restaurantData = [
         items: [
           {
             title: "Gulab Jamun",
-            description:
-              "The classic South Asian dessert that's as regal as it is sweet. A delight for your taste buds.",
+            description: "The classic South Asian dessert that's as regal as it is sweet. A delight for your taste buds.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -900,8 +817,7 @@ export let restaurantData = [
           },
           {
             title: "Bread Pudding",
-            description:
-              "A well-loved dessert that's both delicious and comforting, our bread pudding is an absolute classic.",
+            description: "A well-loved dessert that's both delicious and comforting, our bread pudding is an absolute classic.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -910,8 +826,7 @@ export let restaurantData = [
           },
           {
             title: "Fruit Custard",
-            description:
-              "Enjoy the taste of fresh fruits in a creamy custard made with heart. A treat for your palette.",
+            description: "Enjoy the taste of fresh fruits in a creamy custard made with heart. A treat for your palette.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -920,8 +835,7 @@ export let restaurantData = [
           },
           {
             title: "Gajar Halwa",
-            description:
-              "Made from fresh carrots and the finest ingredients, this flavorful dessert leaves you with a warm feeling.",
+            description: "Made from fresh carrots and the finest ingredients, this flavorful dessert leaves you with a warm feeling.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -930,8 +844,7 @@ export let restaurantData = [
           },
           {
             title: "Kheer",
-            description:
-              "The staple dessert made from fresh dairy and topped off with a garnishing of pistachios.",
+            description: "The staple dessert made from fresh dairy and topped off with a garnishing of pistachios.",
             cost: "$4.50",
             //Done
             class: "small",
@@ -940,8 +853,7 @@ export let restaurantData = [
           },
           {
             title: "Mango Mousse",
-            description:
-              "An extravagant blend of fruity richness & creamy goodness, our mango mousse is pure bliss in a bowl.",
+            description: "An extravagant blend of fruity richness & creamy goodness, our mango mousse is pure bliss in a bowl.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -950,8 +862,7 @@ export let restaurantData = [
           },
           {
             title: "Shahi Tukda",
-            description:
-              "A royal affair of bread, milk, nuts & more, no one should pass on this delectable dessert.",
+            description: "A royal affair of bread, milk, nuts & more, no one should pass on this delectable dessert.",
             cost: "$4.99",
             //Done
             class: "small",
@@ -1749,8 +1660,7 @@ export let restaurantData = [
     title: "Cupertino",
     // title: "Kabab and Curry\nCupertino - Coming Soon",
     imageTitle: "Cupertino",
-    description:
-      "Creating wonderful desi culinary\nmemories in popular Cupertino",
+    description: "Creating wonderful desi culinary\nmemories in popular Cupertino",
     backgroundImageUrl: "/location/Cupertino.jpg",
     backgroundImageLandscapeUrl: "/location/Cupertino-Landscape.jpg",
     bannerBackgroundImageUrl: "/location/banner.jpg",
@@ -1776,8 +1686,7 @@ export let restaurantData = [
         items: [
           {
             title: "chaat",
-            description:
-              "Mouthwatering lentil balls drenched in yogurt, spiced with zesty flavors and served with chutney.",
+            description: "",
             cost: "$10.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1785,8 +1694,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Potli",
-            description:
-              "A deep-fried appetizer enclosing minced chicken, spices, and chopped herbs in a pastry pocket, resembling a little pouch.",
+            description: "",
             cost: "$23.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1794,8 +1702,7 @@ export let restaurantData = [
           },
           {
             title: "Lucknowi Galawat",
-            description:
-              "A gem from the royal city of Lucknow, this kebab is crafted with minced meat, aromatic spices, and raw papaya paste.",
+            description: "",
             cost: "$24.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1803,8 +1710,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom vol au vent",
-            description:
-              "Delicate puff pastry with a medley of mushrooms, encasing shallots and garlic with layers of cream sauce cooked to perfection.",
+            description: "",
             cost: "$15.00 /$20.00",
             class: "large",
             img: " /location/deliveryCourier.png",
@@ -1812,8 +1718,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Potli",
-            description:
-              "A luscious filling of crumbled paneer, chopped vegetables like bell peppers and onions, aromatic spices, and a hint of fresh coriander leaves.",
+            description: "",
             cost: "$14.00 / $18.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1821,8 +1726,7 @@ export let restaurantData = [
           },
           {
             title: "samosa",
-            description:
-              "Golden-crisp pastries packed with spiced goodness, accompanied by flavorful chutney.",
+            description: "",
             cost: "$4.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1830,8 +1734,7 @@ export let restaurantData = [
           },
           {
             title: "Samosa Chaat",
-            description:
-              "A  flavorful Indian street food that combines the crispiness of samosas with the spiciness of various chutneys and toppings.",
+            description: "",
             cost: "$12.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1839,8 +1742,7 @@ export let restaurantData = [
           },
           {
             title: "Shami Kabab",
-            description:
-              "A savory kebab made from ground meat, combined with various spices, herbs, and pulses, most commonly split Bengal gram.",
+            description: "",
             cost: "$12.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1848,8 +1750,7 @@ export let restaurantData = [
           },
           {
             title: "Vegetable cutlet",
-            description:
-              "Spicy vegetable patty made with potatoes, carrots, and green peas, Indian cuisine magic.",
+            description: "",
             cost: "$11.00 / $11.99",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1857,8 +1758,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Dumpling",
-            description:
-              "Seasoned chicken encased in a dough wrapper and filled with minced garlic, ginger, and other seasonings to enhance the taste.",
+            description: "",
             cost: "$15.00",
             class: "small",
             // img: " /location/deliveryCourier.png",
@@ -1866,8 +1766,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom Paneer Dumpling",
-            description:
-              "A delectable treat wrapped with mushrooms, and paneer (Indian cottage cheese), and complemented by spices and herbs.",
+            description: "",
             cost: "$15.00",
             class: "small",
             // img: " /location/deliveryCourier.png",
@@ -1886,13 +1785,11 @@ export let restaurantData = [
       {
         category: "Beverages",
         src: "/tandoori.jpg",
-        image:
-          "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/dinner-min-1-1024x256-1.jpg",
+        image: "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/dinner-min-1-1024x256-1.jpg",
         items: [
           {
             title: "Mango Lassi",
-            description:
-              "An energizing yogurt-based beverage with a sweet-tangy taste that is combined with fresh mango pulp.",
+            description: "",
             cost: "$7.00",
             class: "small",
             img: " /location/deliveryCourier.png",
@@ -1918,8 +1815,7 @@ export let restaurantData = [
           },
           {
             title: "Salt Lassi",
-            description:
-              "A flavorful and pleasant drink with a yogurt base that is combined with roasted cumin and a touch of salt.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "large",
@@ -1928,8 +1824,7 @@ export let restaurantData = [
           },
           {
             title: "Soda Can",
-            description:
-              "Choose from our selection of carbonated drinks to quench your thirst.",
+            description: "",
             cost: "$3.50",
             //Done
             class: "large",
@@ -1947,8 +1842,7 @@ export let restaurantData = [
           },
           {
             title: "Sweet Lassi",
-            description:
-              "A sweet and energizing beverage made with yogurt, sugar, and either cardamom or rosewater for taste.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -1957,8 +1851,7 @@ export let restaurantData = [
           },
           {
             title: "Tea/ Chai",
-            description:
-              "A traditional tea from South Asia, made with a combination of fragrant spices and served with sugar and milk.",
+            description: "",
             cost: "$6.00 / $5.00",
             //Done
             class: "small",
@@ -1967,8 +1860,7 @@ export let restaurantData = [
           },
           {
             title: "Kashmiri chai",
-            description:
-              "Also known as pink tea, it typically comprises green tea leaves, cardamom, and a pinch of salt and baking soda for a savory undertone.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "small",
@@ -1977,8 +1869,7 @@ export let restaurantData = [
           },
           {
             title: "Mocha",
-            description:
-              "A popular beverage that combines espresso, steamed milk, and chocolate creating a delightful balance of boldness and sweetness.",
+            description: "",
             cost: "$7.00",
             //Done
             class: "small",
@@ -1987,8 +1878,7 @@ export let restaurantData = [
           },
           {
             title: "Suleimani Chai",
-            description:
-              "An Indian spiced tea brewed to a golden color with cinnamon, cardamom, cloves, ginger, tea powder, and a dash of lemon.",
+            description: "",
             cost: "$7.00",
             //Done
             class: "small",
@@ -1997,8 +1887,7 @@ export let restaurantData = [
           },
           {
             title: "Michelada",
-            description:
-              "A refreshing tangy drink prepared with lime juice, tomato sauce, clamato, and chili peppers.",
+            description: "",
             cost: "$9.00 / $13.00",
             //Done
             class: "small",
@@ -2043,8 +1932,7 @@ export let restaurantData = [
           },
           {
             title: "Pinacolada",
-            description:
-              "This tropical refreshment is blended with coconut milk and pineapple juice, and shaken with ice to make it frosty and indulgent.",
+            description: "",
             cost: "$9.00 / $13.00",
             //Done
             class: "small",
@@ -2053,8 +1941,7 @@ export let restaurantData = [
           },
           {
             title: "Blue Hawaiian",
-            description:
-              "Renowned for its vibrant blue color and refreshing taste, this iconic drink typically combines blue curaçao, coconut cream, and pineapple juice.",
+            description: "",
             cost: "$9.00 / $13.00",
             //Done
             class: "small",
@@ -2063,8 +1950,7 @@ export let restaurantData = [
           },
           {
             title: "Keri Penna",
-            description:
-              "A distinctive and seasonal beverage made using ingredients; raw mangoes, mint leaves, sugar, salt, and roasted cumin powder. ",
+            description: "",
             cost: "$9.00 / $12.00",
             //Done
             class: "small",
@@ -2073,8 +1959,7 @@ export let restaurantData = [
           },
           {
             title: "Moscow Mule",
-            description:
-              "Known for its refreshing and zesty flavor, this classic drink is typically served in a copper mug and has lime juice as the main ingredient.",
+            description: "",
             cost: "$9.00 / $12.00",
             //Done
             class: "small",
@@ -2083,8 +1968,7 @@ export let restaurantData = [
           },
           {
             title: "Purple Paradise",
-            description:
-              "A unique refreshment that combines pineapple juice, frozen peaches, and blueberries.",
+            description: "",
             cost: "$9.00 / $10.00",
             //Done
             class: "small",
@@ -2093,8 +1977,7 @@ export let restaurantData = [
           },
           {
             title: "Spicy Peru",
-            description:
-              "A spicy Guava drink created by infusing Gauva juice, red chili powder, lemon juice, mint leaves, and green chili.",
+            description: "",
             cost: "$9.00 / $13.00",
             //Done
             class: "small",
@@ -2103,8 +1986,7 @@ export let restaurantData = [
           },
           {
             title: "Banarsi Sherbat",
-            description:
-              "A traditional Indian beverage with its roots in the city of Varanasi and is renowned for its unique blend of rose petals and betel.",
+            description: "",
             cost: "$11.00 / $14.00",
             //Done
             class: "small",
@@ -2113,8 +1995,7 @@ export let restaurantData = [
           },
           {
             title: "Shandy",
-            description:
-              "A non-alcoholic mixture for thirst-quenching that contains balanced proportions of lemonade or a citrus-flavored soda.",
+            description: "",
             cost: "$9.00",
             //Done
             class: "small",
@@ -2123,8 +2004,7 @@ export let restaurantData = [
           },
           {
             title: "Espresso Martini",
-            description:
-              "An energized drink having freshly brewed Espresso as a key ingredient and coffee liqueur for sweetness.",
+            description: "",
             cost: "$13.00",
             //Done
             class: "small",
@@ -2133,8 +2013,7 @@ export let restaurantData = [
           },
           {
             title: "Peach Daiquiri",
-            description:
-              "Peach is the star ingredient of this tropical drink that adds a fruity twist to it along with lime juice and simple syrup.",
+            description: "",
             cost: "$9.00",
             //Done
             class: "small",
@@ -2143,8 +2022,7 @@ export let restaurantData = [
           },
           {
             title: "Arq-e-gulab",
-            description:
-              "A traditional Persian and South Asian beverage made by distilling rose petals, resulting in a fragrant and aromatic liquid.",
+            description: "",
             cost: "$11.00",
             //Done
             class: "small",
@@ -2153,8 +2031,7 @@ export let restaurantData = [
           },
           {
             title: "Khatmi",
-            description:
-              "A super healthy beverage made using dried Hibiscus flowers and can be enjoyed both hot and cold.",
+            description: "",
             cost: "$14.00",
             //Done
             class: "small",
@@ -2163,8 +2040,7 @@ export let restaurantData = [
           },
           {
             title: "Falooda",
-            description:
-              "This delightful concoction is a fusion of rose syrup, vermicelli, basil seeds, ice cream, milk, and chopped nuts.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
@@ -2173,8 +2049,7 @@ export let restaurantData = [
           },
           {
             title: "Masala Lemon Soda",
-            description:
-              "A flavorful beverage, combining the zesty goodness of lemon with a blend of spices such as cumin, black salt, and chaat masala.",
+            description: "",
             cost: "$7.00",
             //Done
             class: "small",
@@ -2201,8 +2076,7 @@ export let restaurantData = [
           },
           {
             title: "Appletini",
-            description:
-              "Served in a martini glass, this vibrant and refreshing drink is characterized by the infusion of apple flavor.",
+            description: "",
             cost: "$9.00 / $13.00",
             //Done
             class: "small",
@@ -2211,8 +2085,7 @@ export let restaurantData = [
           },
           {
             title: "Blue Lagoon",
-            description:
-              "A visually striking drink known for its vivid blue hue; its captivating color is achieved by combining blue curaçao and lemonade.",
+            description: "",
             cost: "$13.00",
             //Done
             class: "small",
@@ -2230,8 +2103,7 @@ export let restaurantData = [
           },
           {
             title: "barbican",
-            description:
-              "A non-alcoholic malt beverage known for its distinct flavor crafted with a blend of malted barley, water, sugar, and various natural flavors.",
+            description: "",
             cost: "$5.00",
             //Done
             class: "small",
@@ -2246,8 +2118,7 @@ export let restaurantData = [
         items: [
           {
             title: "Beef Qeema Naan",
-            description:
-              "A mouthwatering naan bread baked to perfection in a traditional clay oven with minced beef within.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "small",
@@ -2256,8 +2127,7 @@ export let restaurantData = [
           },
           {
             title: "Butter Naan",
-            description:
-              "A butter-soaked version of the famous flatbread, adding more to any meal it's paired with.",
+            description: "",
             cost: "$5.00",
             //Done
             class: "small",
@@ -2266,8 +2136,7 @@ export let restaurantData = [
           },
           {
             title: "Butter Roti",
-            description:
-              "An alternative flatbread prepared with whole wheat flour and brushed with melted butter.   ",
+            description: "",
             cost: "$5.00",
             //Done
             class: "small",
@@ -2276,8 +2145,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Qeema Naan",
-            description:
-              "A naan bread baked to perfection in a traditional clay oven with minced chicken within.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "small",
@@ -2286,8 +2154,7 @@ export let restaurantData = [
           },
           {
             title: "Garlic Naan",
-            description:
-              "A mouthwatering infusion of garlic paste & herbs dominates your food palette with this flatbread.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -2296,8 +2163,7 @@ export let restaurantData = [
           },
           {
             title: "Garlic Roti",
-            description:
-              "A delicious whole wheat flatbread that goes well with any and all meals combined with a fine garlic paste.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -2306,8 +2172,7 @@ export let restaurantData = [
           },
           {
             title: "Khameeri Roti",
-            description:
-              "An Indian flatbread known for its soft and fluffy texture, achieved by using khameer, which is a natural leavening agent derived from fermented dough.",
+            description: "",
             cost: "$4.00 / $5.00",
             //Done
             class: "small",
@@ -2316,8 +2181,7 @@ export let restaurantData = [
           },
           {
             title: "Laccha Parantha",
-            description:
-              "A delicious and flaky North Indian bread made with layers of dough and ghee.",
+            description: "",
             cost: "$6.00 / $7.00",
             //Done
             class: "small",
@@ -2326,8 +2190,7 @@ export let restaurantData = [
           },
           {
             title: "Naan",
-            description:
-              "The classic all-purpose flour flatbread of the South Asian region. A staple with most dishes.",
+            description: "",
             cost: "$4.00",
             //Done
             class: "small",
@@ -2336,8 +2199,7 @@ export let restaurantData = [
           },
           {
             title: "Onion Naan",
-            description:
-              "Classic flatbread topped with chopped onions and baked in a traditional clay oven",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -2346,8 +2208,7 @@ export let restaurantData = [
           },
           {
             title: "Onion Roti",
-            description:
-              "Classic whole wheat flatbread topped with chopped onions for a delicious crunch.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -2356,8 +2217,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Naan",
-            description:
-              "Flatbread prepared with a generous helping of cottage cheese that melts in your mouth.",
+            description: "",
             cost: "$7.00",
             //Done
             class: "small",
@@ -2366,8 +2226,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Roti",
-            description:
-              "A delicious flatbread that houses rich cottage cheese that is cooked to perfection.",
+            description: "",
             cost: "$7.00",
             //Done
             class: "small",
@@ -2376,8 +2235,7 @@ export let restaurantData = [
           },
           {
             title: "Roomali Roti",
-            description:
-              "A popular Indian flatbread known for its thin and delicate texture and includes wheat flour, water, salt, and sometimes a small amount of oil.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -2386,8 +2244,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Roti",
-            description:
-              "Flatbread that is crispy on the outside while being soft and plump on the inside.",
+            description: "",
             cost: "$4.00",
             //Done
             class: "small",
@@ -2396,8 +2253,7 @@ export let restaurantData = [
           },
           {
             title: "Zafrani Zeera Rice",
-            description:
-              "The dish is infused with saffron threads, which impart a distinctive golden color and a subtle floral aroma to the rice.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "small",
@@ -2415,26 +2271,23 @@ export let restaurantData = [
           },
           {
             title: "Lucknowi Parantha",
-            description:
-              "A unique North Indian dish that comes from the perfect balance of spices, the tenderness of the meat filling, and the flakiness of the crispy outer layer.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
-          },
+          }, 
         ],
       },
       {
         category: "Chicken Delicacies",
         src: "/veggidelight.jpg",
-        image:
-          "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/mozzarella-1575066_1920.jpg",
+        image: "https://themify.org/ultra-restaurant/wp-content/uploads/sites/35/2023/01/mozzarella-1575066_1920.jpg",
         items: [
           {
             title: "Achaari Chicken",
-            description:
-              "A flavorful and aromatic Indian dish known for its distinctive taste, which is derived from the use of pickling spices.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2452,8 +2305,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Jhalfarazi",
-            description:
-              "Boneless chicken pieces, colorful bell peppers, onions, tomatoes, and a variety of aromatic spices result in this tantalizing dish.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2462,8 +2314,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Kofta",
-            description:
-              "A delicious and savory dish made with chicken, herbs, and spices, formed into balls and then grilled or baked to perfection.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2472,8 +2323,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Tikka Masala",
-            description:
-              "A combination of aromatic spices and a creamy tomato-based sauce enhances the flavor of this juicy grilled chicken recipe.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -2482,8 +2332,7 @@ export let restaurantData = [
           },
           {
             title: "CTM Sauce",
-            description:
-              "Creamy and flavorful sauce made with tomatoes, cream, and a variety of spices.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
@@ -2492,8 +2341,7 @@ export let restaurantData = [
           },
           {
             title: "Chilli chicken",
-            description:
-              "Crispy fried chicken cooked in a house-special batter & served with our signature sauce.",
+            description: "",
             cost: "$18.00 / $24.00",
             //Done
             class: "small",
@@ -2502,8 +2350,7 @@ export let restaurantData = [
           },
           {
             title: "Frontier Chicken",
-            description:
-              "A spicy, tangy tomato-based dish cooked to perfection with peppers and onions",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2512,8 +2359,7 @@ export let restaurantData = [
           },
           {
             title: "Murgh Badami",
-            description:
-              "A chicken dish from Mughlai cuisine which has a prominent use of almonds to create a nutty flavor",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2522,8 +2368,7 @@ export let restaurantData = [
           },
           {
             title: "Butter Chicken",
-            description:
-              "Tender boneless chicken leg pieces marinated in spices & cooked in a tomato and onion sauce with cream.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -2532,8 +2377,7 @@ export let restaurantData = [
           },
           {
             title: "Saag Chicken",
-            description:
-              "Chicken cooked in a creamy spinach sauce with a blend of aromatic spices.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2542,8 +2386,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Changezi",
-            description:
-              "A North-Indian dish featuring succulent chicken pieces cooked in a creamy tomato-based sauce with a perfect balance of spices.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2552,8 +2395,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Haleem",
-            description:
-              "A type of stew made from finely ground grains, lentils, meat, wheat, barley, and rice, imparting a flavorful and fragrant profile.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2562,8 +2404,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Kadai",
-            description:
-              "Juicy chicken pieces cooked with bell peppers, onions, sautéed garlic & aromatic spices in a thick tomato-based sauce.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2579,6 +2420,7 @@ export let restaurantData = [
             img: " /location/deliveryCourier.png",
             // src: " /location/cutlery.png",
           },
+          
         ],
       },
       {
@@ -2587,8 +2429,7 @@ export let restaurantData = [
         items: [
           {
             title: "Baklawa",
-            description:
-              "A Balkan cuisine pastry made by layering sheets of phyllo dough with a filling of chopped nuts and sweet syrup.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2597,8 +2438,7 @@ export let restaurantData = [
           },
           {
             title: "Banana Fritter",
-            description:
-              "A delightful combination of sweetness and crunch made by coating banana slices in a batter and deep-frying them until golden brown.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2607,8 +2447,7 @@ export let restaurantData = [
           },
           {
             title: "Bread Pudding",
-            description:
-              "A well-loved dessert that's both delicious and comforting with a balanced proportion of sweetness.",
+            description: "",
             cost: "$6.00 / $6.99",
             //Done
             class: "large",
@@ -2617,8 +2456,7 @@ export let restaurantData = [
           },
           {
             title: "Chocolair Mousse",
-            description:
-              "A creamy dessert known for its rich chocolate flavor and airy texture with eggs, sugar, and cream as key ingredients.",
+            description: "",
             cost: "$8.00 / $8.25",
             //Done
             class: "large",
@@ -2627,8 +2465,7 @@ export let restaurantData = [
           },
           {
             title: "Dark Forest",
-            description:
-              "A decadent dessert that combines rich chocolate elements with forest-inspired flavors to create a unique and indulgent treat.",
+            description: "",
             cost: "$8.00 / $8.99",
             //Done
             class: "large",
@@ -2637,8 +2474,7 @@ export let restaurantData = [
           },
           {
             title: "Fruit Custard",
-            description:
-              "Enjoy the taste of fresh fruits in a creamy custard made with heart. A treat for your palette.",
+            description: "",
             cost: "$7.00 / $7.50",
             //Done
             class: "large",
@@ -2647,8 +2483,7 @@ export let restaurantData = [
           },
           {
             title: "Gajjar Halwa",
-            description:
-              "Made from fresh carrots and the finest ingredients, this flavorful dessert leaves you with a warm feeling.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2657,8 +2492,7 @@ export let restaurantData = [
           },
           {
             title: "Gulab Jamun",
-            description:
-              "The classic South Asian dessert that's as regal as it is sweet. A delight for your taste buds.",
+            description: "",
             cost: "$6.00 / $6.50",
             //Done
             class: "large",
@@ -2667,8 +2501,7 @@ export let restaurantData = [
           },
           {
             title: "Kheer",
-            description:
-              "The staple dessert made from fresh dairy and topped off with a garnishing of pistachios.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2677,8 +2510,7 @@ export let restaurantData = [
           },
           {
             title: "Mango Mousse",
-            description:
-              "An extravagant blend of fruity richness & creamy goodness, our mango mousse is pure bliss in a bowl.",
+            description: "",
             cost: "$8.00 / $8.25",
             //Done
             class: "large",
@@ -2687,8 +2519,7 @@ export let restaurantData = [
           },
           {
             title: "Phirni",
-            description:
-              "A creamy rice pudding made with ground rice, milk, sugar, and flavored with cardamom.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2697,8 +2528,7 @@ export let restaurantData = [
           },
           {
             title: "Pineapple Cake Slice",
-            description:
-              "A delectable dessert that combines the tropical flavor of pineapple with a moist and tender cake base.",
+            description: "",
             cost: "$8.00 / $8.99",
             //Done
             class: "large",
@@ -2707,8 +2537,7 @@ export let restaurantData = [
           },
           {
             title: "Shahi Tukda",
-            description:
-              "A royal affair of bread, milk, nuts & more, no one should pass on this delectable dessert.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "large",
@@ -2717,14 +2546,14 @@ export let restaurantData = [
           },
           {
             title: "Tiramisu",
-            description:
-              "A classic Italian dessert renowned for its luscious and indulgent flavors, layered with a velvety mixture of ladyfinger biscuits, cheese, sugar, and eggs.",
+            description: "",
             cost: "$8.00 / $8.99",
             //Done
             class: "large",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+        
         ],
       },
       {
@@ -2733,8 +2562,7 @@ export let restaurantData = [
         items: [
           {
             title: "Chicken Biryaani",
-            description:
-              "The classic biryani made with chicken cooked in layers of rice and flavor-filled spices.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2743,8 +2571,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Biryaani",
-            description:
-              "A rich blend of rice, traditional spices, and mutton that reaches perfection through a slow-cooking process.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2753,8 +2580,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Biryaani",
-            description:
-              "Lamb pieces mixed with aromatic spices and rice, slow-cooked in a sealed pot till the flavor sets in",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2763,8 +2589,7 @@ export let restaurantData = [
           },
           {
             title: "Shahi Vegetable Biryani",
-            description:
-              "Potatoes dominate this special mix of biryaani, prepared with the same blend of spices and rice.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2782,8 +2607,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Pulao",
-            description:
-              "Cooked by simmering up a broth using goat meat and blended with a bunch of aromatic spices.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2792,8 +2616,7 @@ export let restaurantData = [
           },
           {
             title: "Achari Murgh Biryani",
-            description:
-              "An aromatic Indian dish that combines the rich flavors of biryani with the tangy and spicy notes of achar (pickle).",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -2802,8 +2625,7 @@ export let restaurantData = [
           },
           {
             title: "Zafrani Rice",
-            description:
-              "A fragrant and flavorful rice dish that features the distinct aroma and color of saffron.",
+            description: "",
             cost: "$8.00",
             //Done
             class: "small",
@@ -2812,14 +2634,14 @@ export let restaurantData = [
           },
           {
             title: "Muradabadi biryani",
-            description:
-              "Originating in the city of Muradabad in Uttar Pradesh, this biryani has a special spice mix comprising saffron, mint, and coriander.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+         
         ],
       },
       {
@@ -2828,8 +2650,7 @@ export let restaurantData = [
         items: [
           {
             title: "Bhuna Gosht",
-            description:
-              "Tender lamb cooked in a tomato-based sauce with chili peppers and black pepper till rich and thick.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2838,8 +2659,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Kadhai",
-            description:
-              "Tender mutton cooked with fresh bell peppers, tomatoes, onions, and garlic in a tomato-based sauce.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2848,8 +2668,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Keema Aaloo",
-            description:
-              "A classic South Asian dish made with spiced minced mutton and potatoes, evoking the warm, hearty feeling of home.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2858,8 +2677,7 @@ export let restaurantData = [
           },
           {
             title: "Badami Gosht",
-            description:
-              "A combination of tender meat and a luscious almond-based gravy creates a unique and indulgent taste.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2868,8 +2686,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Rogan josh",
-            description:
-              "Mutton cooked in a creamy tomato gravy with a heady combination of intense spices, straight out of the Kashmir Valley.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -2878,8 +2695,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Nihaari",
-            description:
-              "Lamb nihaari is slow-cooked made with succulent lamb meat and a blend of aromatic spices.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2888,8 +2704,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Stew",
-            description:
-              "A hearty and aromatic stew of tender lamb cooked with onions, spices and simmered slowly to perfection.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2898,8 +2713,7 @@ export let restaurantData = [
           },
           {
             title: "Saag Gosht",
-            description:
-              "Tender lamb chunks cooked together with spinach, topped off with butter to create the perfect blend of taste.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2908,8 +2722,7 @@ export let restaurantData = [
           },
           {
             title: "Mutton Handi",
-            description:
-              "Mutton is cooked in a fragrant curry sauce and includes a blend of spices such as cumin, coriander, turmeric, garam masala, and chili powder.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -2918,8 +2731,7 @@ export let restaurantData = [
           },
           {
             title: "Daal Gosht",
-            description:
-              "This flavorful dish is a harmonious blend of protein-rich lentils and tender meat, cooked with a medley of aromatic spices.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2928,8 +2740,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Nihari",
-            description:
-              "Lamb nihaari is slow-cooked made with succulent lamb meat and a blend of aromatic spices.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -2938,8 +2749,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Korma",
-            description:
-              "Succulent pieces of lamb cooked in a rich, creamy sauce of yogurt, spices, and onion gravy.",
+            description: "",
             cost: "$22.00 / $23.00",
             //Done
             class: "small",
@@ -2948,14 +2758,14 @@ export let restaurantData = [
           },
           {
             title: "Goat Haleem",
-            description:
-              "A type of stew made from finely ground grains, lentils, meat (goat), wheat, barley, and rice, imparting a flavorful and fragrant profile.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+         
         ],
       },
       {
@@ -2973,8 +2783,7 @@ export let restaurantData = [
           },
           {
             title: "Mixed Pickle",
-            description:
-              "A flavorful condiment containing a medley of various vegetables and sometimes fruits that are preserved in a spiced brine.",
+            description: "",
             cost: "$3.00",
             //Done
             class: "small",
@@ -2983,8 +2792,7 @@ export let restaurantData = [
           },
           {
             title: "Raita",
-            description:
-              "A yogurt-based condiment that is popular with everything from meat to rice dishes.",
+            description: "",
             cost: "$5.00 / $4.50",
             //Done
             class: "small",
@@ -3011,8 +2819,7 @@ export let restaurantData = [
           },
           {
             title: "Buuternut Squash",
-            description:
-              "A winter squash known for its sweet and nutty flavor, vibrant orange color, and smooth, creamy texture.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
@@ -3021,28 +2828,25 @@ export let restaurantData = [
           },
           {
             title: "Mediterranean Medley",
-            description:
-              "This vibrant dish features a colorful array of fresh vegetables, aromatic herbs, and wholesome grains, capturing the essence of coastal cuisine.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
             // img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
-          {
-            title: "Boondi Raita",
-            description:
-              "A refreshing Indian side dish made with yogurt and tiny, deep-fried chickpea flour balls known as boondi.",
-            cost: "$5.00",
-            //Done
-            class: "small",
-            // img: " /location/deliveryCourier.png",
-            src: " /location/cutlery.png",
-          },
+            {
+              title: "Boondi Raita",
+              description: "",
+              cost: "$5.00",
+              //Done
+              class: "small",
+              // img: " /location/deliveryCourier.png",
+              src: " /location/cutlery.png",
+            },
           {
             title: "Beetroot Raita",
-            description:
-              "Grated beetroot is mixed with yogurt and seasoned with various spices such as finely chopped mint or coriander leaves, or salt.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -3051,14 +2855,14 @@ export let restaurantData = [
           },
           {
             title: "Papadum",
-            description:
-              "This thin, round, and crispy wafer-like flatbread is made primarily from black gram flour (urad dal), lentil flour, or chickpea flour.",
+            description: "",
             cost: "$4.00",
             //Done
             class: "small",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+         
         ],
       },
       {
@@ -3076,8 +2880,7 @@ export let restaurantData = [
           },
           {
             title: "Aachari Chicken Biryani",
-            description:
-              "An aromatic Indian dish that combines the rich flavors of biryani with the tangy and spicy notes of achar (pickle).",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -3086,8 +2889,7 @@ export let restaurantData = [
           },
           {
             title: "Bagharey Baigun",
-            description:
-              "Originating from the Hyderabadi cuisine, this dish features baby eggplants which are slit and stuffed with a mixture of aromatic spices and ground peanuts.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3096,8 +2898,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Chargah",
-            description:
-              "A soft succulent fried chicken marinated overnight in the spicy and tangy rub and steamed.",
+            description: "",
             cost: "$35.00",
             //Done
             class: "small",
@@ -3106,8 +2907,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Haleem",
-            description:
-              "A type of stew made from finely ground grains, lentils, meat, wheat, barley, and rice, imparting a flavorful and fragrant profile.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3116,8 +2916,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Pulao",
-            description:
-              "Cooked by simmering up a broth using goat meat and blended with a bunch of aromatic spices.",
+            description: "",
             cost: "$27.00",
             //Done
             class: "small",
@@ -3126,8 +2925,7 @@ export let restaurantData = [
           },
           {
             title: "Goat Raan",
-            description:
-              "Specifically featuring the leg of a goat,  it is marinated in a rich blend of spices and herbs and then slow-cooked or roasted to perfection.            ",
+            description: "",
             cost: "$175.00",
             //Done
             class: "small",
@@ -3136,8 +2934,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Haleem",
-            description:
-              "It is a slow-cooked stew made from a blend of lamb or mutton, lentils, and various grains like wheat or barley.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3146,8 +2943,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Raan",
-            description:
-              "Specifically featuring the leg of a lamb,  it is marinated in a rich blend of spices and herbs and then slow-cooked or roasted to perfection.",
+            description: "",
             cost: "$150.00",
             //Done
             class: "small",
@@ -3156,14 +2952,14 @@ export let restaurantData = [
           },
           {
             title: "Mirchi Salan",
-            description:
-              "Its unique taste is from the heat from the green chilies, the nuttiness from peanuts and sesame seeds, and the tanginess from tamarind.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
             img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+        
         ],
       },
       {
@@ -3172,8 +2968,7 @@ export let restaurantData = [
         items: [
           {
             title: "Beef Seekh Kabab",
-            description:
-              "Tender minced beef, blended with aromatic herbs and spices, grilled the South Asian way.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -3182,8 +2977,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken barra",
-            description:
-              "House-spiced chicken, marinated with classic South Asian flavors & traditional spices, cooked to perfection",
+            description: "",
             cost: "$24.00 - $45.00 / $25.00 - $45.00 ",
             //Done
             class: "small",
@@ -3192,8 +2986,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Boti Kabab",
-            description:
-              "Boneless chicken cubes marinated in a blend of spices and grilled to preserve the South Asian tenderness.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3202,8 +2995,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Seekh Kabab",
-            description:
-              "Succulent chicken mince, infused with spices, grilled on skewers over an open charcoal flame.",
+            description: "",
             cost: "$6.00",
             //Done
             class: "small",
@@ -3212,8 +3004,7 @@ export let restaurantData = [
           },
           {
             title: "Hare Bhare Kabab",
-            description:
-              "Delicious blend of green peas and potato packed onto a skewer and grilled to perfection for a mouthwatering delight.",
+            description: "",
             cost: "$5.00",
             //Done
             class: "small",
@@ -3222,8 +3013,7 @@ export let restaurantData = [
           },
           {
             title: "Lamb Chops / Goat Chops",
-            description:
-              "Tender lamb chops marinated in herbs and spices, cooked over an open grill to charcoaled perfection.",
+            description: "",
             cost: "$27.00 / $28.00",
             //Done
             class: "small",
@@ -3232,8 +3022,7 @@ export let restaurantData = [
           },
           {
             title: "Malai Tikka",
-            description:
-              "Succulent cubes of chicken breast marinated in cream and skewered over a charcoal grill.",
+            description: "",
             cost: "$21.00 / $18.00",
             //Done
             class: "small",
@@ -3242,8 +3031,7 @@ export let restaurantData = [
           },
           {
             title: "Reshmi Kabab",
-            description:
-              "Marinated chicken is threaded onto skewers, traditionally cooked in a tandoor, and served with mint chutney.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3252,8 +3040,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom Tikka",
-            description:
-              "Juicy mushrooms prepared in a clay oven after being marinated in spices & served with grilled vegetables.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3262,8 +3049,7 @@ export let restaurantData = [
           },
           {
             title: "Salmon Tikka",
-            description:
-              " An aromatic dish that combines the rich, buttery texture of salmon with the vibrant spices of traditional Indian cuisine.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -3272,8 +3058,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Chicken Breast",
-            description:
-              "Chicken breast piece soaked in homemade spices and cooked to satisfaction over a charcoal grill.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
@@ -3282,8 +3067,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Chicken Leg",
-            description:
-              "A juicy leg quarter infused with house-made spices and grilled over charcoal for a traditional flavor.",
+            description: "",
             cost: "$11.00",
             //Done
             class: "small",
@@ -3292,8 +3076,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Fish",
-            description:
-              "Succulent fish marinated in aromatic spices, grilled over charcoal & served with rice and special sauce.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3302,8 +3085,7 @@ export let restaurantData = [
           },
           {
             title: "Tandoori Shrimp",
-            description:
-              "Jumbo shrimp marinated in South Asian spices, grilled till smoked & served with rice and special sauce.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -3312,8 +3094,7 @@ export let restaurantData = [
           },
           {
             title: "Tikka Paneer",
-            description:
-              "Cottage cheese cubes marinated in traditional spices, cooked in a clay oven & served piping hot.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3331,8 +3112,7 @@ export let restaurantData = [
           },
           {
             title: "Banjara Chicken",
-            description:
-              "Marinated succulent pieces of chicken in a well-spiced mixture, resulting in a dish that is both spicy and savory.",
+            description: "",
             cost: "$17.00",
             //Done
             class: "small",
@@ -3341,8 +3121,7 @@ export let restaurantData = [
           },
           {
             title: "Beef Bihari Kabab",
-            description:
-              "Marinated beef skewers that are typically grilled or cooked over an open flame, imparting a distinct smoky flavor.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3351,8 +3130,7 @@ export let restaurantData = [
           },
           {
             title: "Achari Paneer Tikka",
-            description:
-              "The combination of paneer cubes with Indian spices is threaded onto skewers and grilled until they achieve a golden-brown color.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3361,8 +3139,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Nazakat",
-            description:
-              "A delightful Indian appetizer that features stuffed potatoes, combining a medley of flavors and textures.",
+            description: "",
             cost: "$15.00",
             //Done
             class: "small",
@@ -3378,6 +3155,7 @@ export let restaurantData = [
             img: " /location/deliveryCourier.png",
             // src: " /location/cutlery.png",
           },
+         
         ],
       },
       {
@@ -3386,8 +3164,7 @@ export let restaurantData = [
         items: [
           {
             title: "Aaloo Tikki Chaat",
-            description:
-              "A savory and spicy snack made with crispy potato patties (Aaloo Tikki) served with a medley of chutneys, yogurt, and various aromatic spices.",
+            description: "",
             cost: "$15.00",
             //Done
             class: "small",
@@ -3396,8 +3173,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken 65",
-            description:
-              "Known for its spicy and tangy taste, bite-sized pieces of marinated chicken are deep-fried until crispy.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -3406,8 +3182,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Chowmein",
-            description:
-              "Stir-fried noodles tossed with tender chicken and a medley of vegetables; creating the perfect Asian noodle dish.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3416,8 +3191,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Fried Rice",
-            description:
-              "Fragrant rice stir-fried with succulent chicken pieces, mixed vegetables, and savory seasonings.",
+            description: "",
             cost: "$22.00",
             //Done
             class: "small",
@@ -3426,8 +3200,7 @@ export let restaurantData = [
           },
           {
             title: "Chicken Manchurian",
-            description:
-              "Bite-sized pieces of chicken that are deep-fried until crispy and then tossed in a flavorful Manchurian sauce.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -3436,8 +3209,7 @@ export let restaurantData = [
           },
           {
             title: "Chilli Chicken",
-            description:
-              "Crispy chicken pieces cooked in a spicy chili sauce with peppers and onions, a tantalizing blend of heat and flavor.",
+            description: "",
             cost: "$23.00",
             //Done
             class: "small",
@@ -3446,8 +3218,7 @@ export let restaurantData = [
           },
           {
             title: "Choley Bhaturey",
-            description:
-              "Soft and fluffy fried bread served with spicy chickpea curry, a classic North-South Asian dish.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3456,8 +3227,7 @@ export let restaurantData = [
           },
           {
             title: "Daahi Bhalle",
-            description:
-              "Lentil dumplings served with yogurt, tamarind chutney, and a blend of spices, a refreshing and tangy dish.",
+            description: "",
             cost: "$14.00 / $16.00",
             //Done
             class: "small",
@@ -3466,8 +3236,7 @@ export let restaurantData = [
           },
           {
             title: "Fry Chicken",
-            description:
-              "Coating chicken pieces with a seasoned flour or batter mixture and then frying them until they are golden brown and crispy.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3476,8 +3245,7 @@ export let restaurantData = [
           },
           {
             title: "Garlic Chicken",
-            description:
-              "Tender chicken cooked with aromatic garlic, herbs, and spices, bursting with flavor & aroma.",
+            description: "",
             cost: "$24.00",
             //Done
             class: "small",
@@ -3486,8 +3254,7 @@ export let restaurantData = [
           },
           {
             title: "Gobi 65",
-            description:
-              "A popular Indian appetizer known for its crispy and flavorful cauliflower florets with the perfect balance of spiciness, crunchiness, and natural flavors.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3496,8 +3263,7 @@ export let restaurantData = [
           },
           {
             title: "Gobi Manchurian",
-            description:
-              "A delightful combination of crispy cauliflower florets coated in a flavorful and tangy sauce.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3506,8 +3272,7 @@ export let restaurantData = [
           },
           {
             title: "Halwa Poori Choley",
-            description:
-              "Deep-fried bread served with sweet semolina halwa and spicy chickpea curry, a hearty and flavorful dish.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3516,8 +3281,7 @@ export let restaurantData = [
           },
           {
             title: "Papri Chaat",
-            description:
-              "A delightful combination of crispy papris, tangy chutneys, yogurt, and chaat spices, a burst of flavors.",
+            description: "",
             cost: "$12.00 / $14.00",
             //Done
             class: "small",
@@ -3526,8 +3290,7 @@ export let restaurantData = [
           },
           {
             title: "Samosa",
-            description:
-              "Crispy pastry filled with spiced potatoes and peas, fried to perfection, a classic South Asian snack.",
+            description: "",
             cost: "$5.00 / $8.00",
             //Done
             class: "small",
@@ -3536,8 +3299,7 @@ export let restaurantData = [
           },
           {
             title: "Samosa Chaat",
-            description:
-              "A  flavorful Indian street food that combines the crispiness of samosas with the spiciness of various chutneys and toppings.",
+            description: "",
             cost: "$15.00",
             //Done
             class: "small",
@@ -3546,8 +3308,7 @@ export let restaurantData = [
           },
           {
             title: "Vegetable Chowmein",
-            description:
-              "Stir-fried noodles packed with assorted vegetables, a satisfying vegetarian option that's both healthy & tasty.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3556,8 +3317,7 @@ export let restaurantData = [
           },
           {
             title: "Vegetable Cutlet",
-            description:
-              "Mixed vegetable patties, lightly fried and served with chutney, a flavorful vegetarian option.",
+            description: "",
             cost: "$12.00",
             //Done
             class: "small",
@@ -3566,8 +3326,7 @@ export let restaurantData = [
           },
           {
             title: "Vegetable Fried Rice",
-            description:
-              "Fragrant rice stir-fried with a colorful medley of vegetables, a wholesome and satisfying dish.",
+            description: "",
             cost: "$20.00",
             //Done
             class: "small",
@@ -3576,8 +3335,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Tikki",
-            description:
-              "Spiced potato patties full of flavor & aroma served with chutney, a popular street food snack.",
+            description: "",
             cost: "$10.00",
             //Done
             class: "small",
@@ -3586,14 +3344,14 @@ export let restaurantData = [
           },
           {
             title: "Bhalle Papri",
-            description:
-              "A savory chaat made with crispy lentil dumplings, papri, yogurt, chutneys, and a medley of spices.",
+            description: "",
             cost: "$16.00",
             //Done
             class: "small",
             // img: " /location/deliveryCourier.png",
             src: " /location/cutlery.png",
           },
+        
         ],
       },
       {
@@ -3602,8 +3360,7 @@ export let restaurantData = [
         items: [
           {
             title: "Aaloo Gobi",
-            description:
-              "Fresh potatoes and cauliflower prepared in a creamy tomato and onion sauce. A vegetarian delight.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3612,8 +3369,7 @@ export let restaurantData = [
           },
           {
             title: "Aaloo Mutter",
-            description:
-              "The classic dish of potatoes and peas, made with our special blend of tomato and onion sauce.",
+            description: "",
             cost: "$17.00",
             //Done
             class: "small",
@@ -3622,8 +3378,7 @@ export let restaurantData = [
           },
           {
             title: "Aloo Baigun",
-            description:
-              "Potatoes and eggplant come together in a wonderful mix of tomato and onion sauce to create a delicious veg offering.",
+            description: "",
             cost: "$17.00",
             //Done
             class: "small",
@@ -3632,8 +3387,7 @@ export let restaurantData = [
           },
           {
             title: "Aloo Palak",
-            description:
-              "Tender potatoes and spinach cooked in a creamy tomato and onion sauce with a blend of aromatic spices.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3642,8 +3396,7 @@ export let restaurantData = [
           },
           {
             title: "Baigun Bharta",
-            description:
-              "Baigun Bharta is a smoky and flavorful North Indian dish made with roasted eggplant and spices.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3652,8 +3405,7 @@ export let restaurantData = [
           },
           {
             title: "Bhindi Masala",
-            description:
-              "Okra cooked in a blend of spices with onions and tomatoes for a flavorful vegetarian dish.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3662,8 +3414,7 @@ export let restaurantData = [
           },
           {
             title: "Chana Dal",
-            description:
-              "A lentil-based vegetarian dish with a crispy texture prepared with tomato and onions & sautéed with garlic.",
+            description: "",
             cost: "$16.00",
             //Done
             class: "small",
@@ -3672,8 +3423,7 @@ export let restaurantData = [
           },
           {
             title: "Daal Makhni",
-            description:
-              "A creamy lentil-based vegetarian dish, slow-cooked with aromatic spices and finished with a touch of cream. ",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3682,8 +3432,7 @@ export let restaurantData = [
           },
           {
             title: "Daal Tadka",
-            description:
-              "Cooked lentils with fried spices and herbs and a dash of oil or ghee.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3692,8 +3441,7 @@ export let restaurantData = [
           },
           {
             title: "Dum Pokht Aaloo",
-            description:
-              "Marinating the potatoes with the spice mixture and allowing them to absorb the flavors before slow-cooking.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3702,8 +3450,7 @@ export let restaurantData = [
           },
           {
             title: "Handi Paneer",
-            description:
-              "A flavorful combination of paneer (Indian cottage cheese) and aromatic spices is slow-cooked in the handi or pot.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3712,8 +3459,7 @@ export let restaurantData = [
           },
           {
             title: "Kadee Pakoda",
-            description:
-              "Kadee Pakoda is a tangy and flavorful North Indian dish featuring deep-fried vegetable fritters in a yogurt-based sauce.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3722,8 +3468,7 @@ export let restaurantData = [
           },
           {
             title: "Mushroom Mutter",
-            description:
-              "Mushrooms, green peas, and onions come together to create a veg dish that's a unique brand of delicious.",
+            description: "",
             cost: "$21.00",
             //Done
             class: "small",
@@ -3732,8 +3477,7 @@ export let restaurantData = [
           },
           {
             title: "Mutter Paneer",
-            description:
-              "Mutter paneer is a creamy, flavorful vegetarian dish featuring soft paneer cheese.",
+            description: "",
             cost: "$21.00 / $18.00",
             //Done
             class: "small",
@@ -3742,8 +3486,7 @@ export let restaurantData = [
           },
           {
             title: "Nav Rattan Korma",
-            description:
-              "The best of the vegetable kingdom comes together in this mixed dish that's equal parts exquisite and delicious",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3752,8 +3495,7 @@ export let restaurantData = [
           },
           {
             title: "Palak",
-            description:
-              "A simple vegetarian dish made with creamy spinach and a blend of aromatic spices. Prepared using our special recipe.",
+            description: "",
             cost: "$15.00",
             //Done
             class: "small",
@@ -3762,8 +3504,7 @@ export let restaurantData = [
           },
           {
             title: "Palak Paneer",
-            description:
-              "Cottage cheese cubes cooked in a creamy spinach sauce with a blend of aromatic spices.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3772,8 +3513,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Tikka Masala",
-            description:
-              "Homemade cottage cheese cooked in a creamy tomato-based sauce with sautéed bell peppers, onion, and mushrooms.",
+            description: "",
             cost: "$19.00",
             //Done
             class: "small",
@@ -3782,8 +3522,7 @@ export let restaurantData = [
           },
           {
             title: "Pindi Choley",
-            description:
-              "A flavorful delight comprising boiled chickpeas, onions, tomatoes, ginger, garlic, and a blend of aromatic spices such as cumin, coriander, or turmeric.",
+            description: "",
             cost: "$18.00",
             //Done
             class: "small",
@@ -3792,8 +3531,7 @@ export let restaurantData = [
           },
           {
             title: "Paneer Pasanda",
-            description:
-              "Paneer (Indian cottage cheese) slices that are stuffed, battered, and fried, creating a delightful contrast of textures.",
+            description: "",
             cost: "$21.00 / $19.00",
             //Done
             class: "small",
@@ -3809,6 +3547,7 @@ export let restaurantData = [
             img: " /location/deliveryCourier.png",
             // src: " /location/cutlery.png",
           },
+        
         ],
       },
       {
@@ -3824,8 +3563,10 @@ export let restaurantData = [
           //   img: " /location/deliveryCourier.png",
           //   src: " /location/cutlery.png",
           // },
+       
         ],
       },
+      
     ],
   },
   // {
@@ -4797,8 +4538,7 @@ export let restaurantData = [
     slug: "Ketlee",
     title: "Kettle'e",
     imageTitle: "Kettle'e",
-    description:
-      "Creating wonderful desi culinary\nmemories in popular Santa Clara",
+    description: "Creating wonderful desi culinary\nmemories in popular Santa Clara",
     backgroundImageUrl: "/location/Kettlee.jpg",
     backgroundImageLandscapeUrl: "/location/Kettlee-Landscape.jpg",
     bannerBackgroundImageUrl: "/location/banner.jpg",
@@ -4863,8 +4603,7 @@ export let restaurantData = [
         items: [
           {
             title: "Halwa Puri Choley",
-            description:
-              "Garbanzo bean, aloo sabzi with fried whole wheat bread and semolina sweet",
+            description: "Garbanzo bean, aloo sabzi with fried whole wheat bread and semolina sweet",
             cost: "$10.99",
           },
           {
@@ -4879,8 +4618,7 @@ export let restaurantData = [
           },
           {
             title: "Qeema Puri Halwa",
-            description:
-              "Fresh ground goat served with fried whole wheat bread and semolina sweet",
+            description: "Fresh ground goat served with fried whole wheat bread and semolina sweet",
             cost: "$14.99",
           },
         ],

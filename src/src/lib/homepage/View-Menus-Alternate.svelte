@@ -1,9 +1,8 @@
 <script>
-  import { footerImages } from "$lib/data";
   import RectangularButton from "$lib/widgets/Rectangular-Button.svelte";
-  import facebookIcon from "../../static/facebookIcon.png";
-  import instagramIcon from "../../static/instagramIcon.png";
-  import yelpIcon from "../../static/yelpIcon.png";
+  import facebookIcon from "../../../static/facebookIcon.png";
+  import instagramIcon from "../../../static/instagramIcon.png";
+  import yelpIcon from "../../../static/yelpIcon.png";
   export let menus = [
     {
       label: "SANTA CLARA",
@@ -11,17 +10,16 @@
       address: "1498 Isabella St, Santa Clara, CA 95050",
       phone: "(408) 247-0745",
     },
-
-    // {
-    //   label: "MCA",
-    //   url: "/locations/MCA",
-    //   address: "3003 Scott Blvd, Santa Clara, CA 95054",
-    //   phone: "(408) 247-0745",
-    // },
     {
       label: "CUPERTINO",
       url: "/locations/Cupertino",
       address: "20007 Stevens Creek Blvd, Cupertino, CA 95014",
+      phone: "(408) 247-0745",
+    },
+    {
+      label: "MCA",
+      url: "/locations/MCA",
+      address: "3003 Scott Blvd, Santa Clara, CA 95054",
       phone: "(408) 247-0745",
     },
     {
@@ -36,8 +34,7 @@
 
   function navigateToYelp() {
     if (typeof window !== "undefined") {
-      window.location.href =
-        "https://www.yelp.com/biz/kabab-and-currys-santa-clara";
+      window.location.href = "https://www.yelp.com/biz/kabab-and-currys-santa-clara";
     }
   }
   function navigateTofacebook() {
@@ -52,7 +49,7 @@
   }
 </script>
 
-<div class="view-menu-container">
+<!-- <div class="view-menu-container">
   <h2 class="header">{header}</h2>
 
   <div class="menus">
@@ -60,102 +57,23 @@
       <div class="menu">
         <h4 class="label">{menu.label}</h4>
         <p class="address">{menu.address}</p>
-        <a class="phone" style="text-decoration:none" href={`tel:${menu.phone}`}
-          >{menu.phone}</a
-        >
+        <a class="phone" style="text-decoration:none" href={`tel:${menu.phone}`}>{menu.phone}</a>
       </div>
-      {#if index != 2}
-        <div class="separator" />
+      {#if index != 3}
+        <hr class="separator" />
       {/if}
     {/each}
   </div>
 
   <div class="icon-center">
-    <img
-      src={facebookIcon}
-      alt=""
-      class="social-icon"
-      on:click={navigateTofacebook}
-    />
-    <img
-      src={instagramIcon}
-      alt=""
-      class="social-icon"
-      on:click={navigateToInstagram}
-    />
+    <img src={facebookIcon} alt="" class="social-icon" on:click={navigateTofacebook} />
+    <img src={instagramIcon} alt="" class="social-icon" on:click={navigateToInstagram} />
     <img src={yelpIcon} alt="" class="social-icon" on:click={navigateToYelp} />
   </div>
-</div>
-
-<div class="container">
-  <div class="black-banner">
-    <div>
-      <a href="https://nuage-digital.com"
-        ><p class="gold">Website Powered by Nuage Digital</p></a
-      >
-    </div>
-  </div>
-  <div class="gold-banner" />
-</div>
-
-<style type="text/scss">
-  @import "../styles/theme.scss";
-  @import "../styles/breakpoints.scss";
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: -40px;
-  }
-
-  .gold-banner {
-    background-color: $gold;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 8px;
-  }
-
-  .black-banner {
-    background-color: #000;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-
-    @include for-size(tablet-portrait-down) {
-      height: fit-content;
-      flex-direction: column;
-    }
-  }
-
-  .social-icon {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-  }
-
-  .contact-link {
-    color: #fff;
-    font-size: 16px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .gold {
-    font-size: 11px;
-    letter-spacing: 6px;
-    color: #ba9d56;
-    font-weight: 300;
-    font-family: "Open Sans";
-  }
+</div> -->
+<style lang="scss">
+  @import "../../styles/theme.scss";
+  @import "../../styles/breakpoints.scss";
 
   .view-menu-container {
     display: flex;
@@ -195,7 +113,7 @@
     width: 95%;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     @include for-size(tablet-landscape-down) {
     }
@@ -209,6 +127,7 @@
 
   .menu:nth-child(n + 1) {
     @include for-size(phone-only) {
+      margin-left: 13%;
       margin-bottom: 25px;
       display: flex;
       justify-content: center;
@@ -231,7 +150,7 @@
     height: 120px;
     width: 0.5px;
     background-color: #cacaca;
-    opacity: 0.9;
+    opacity: 0.5;
 
     @include for-size(tablet-landscape-down) {
       display: none;
