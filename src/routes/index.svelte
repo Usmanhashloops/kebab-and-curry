@@ -178,7 +178,7 @@
 
   .location {
     height: 80vh;
-    width: 25vw;
+    width: 33.33vw;
     background-size: cover;
     // background-color: red;
     position: relative;
@@ -245,7 +245,7 @@
 
   .location:first-child h2 {
     width: 350px;
-    right: -29%;
+    right: -21%;
     bottom: 40%;
   }
 </style>

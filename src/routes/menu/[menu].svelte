@@ -363,6 +363,7 @@
     align-items: center;
     background: #2a2a2a;
     top: 60px !important;
+    flex-wrap: wrap;
 
     @include for-size(phone-only) {
       /* top: 15vh; */
@@ -418,12 +419,16 @@
     font-weight: 400;
     font-size: 15px;
     text-transform: uppercase;
+    margin-left: 13px;
+    margin-right: 13px;
 
     @include for-size(tablet-landscape-down) {
       color: $gold;
     }
     @include for-size(phone-only) {
       font-size: 11px;
+      margin-left: 13px;
+      margin-right: 13px;
     }
   }
 

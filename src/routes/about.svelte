@@ -91,7 +91,7 @@
   paragraphs={[
     "Kabab and Curry started from humble roots in Santa Clara, with the aim of creating a distinct culinary experience that would bring the flavors of the East to the Bay Area.",
     "We have been creating authentic desi dining experiences and culinary memories since the 1990s. Soon after its launch, our humble restaurant caught the attention of the patrons of the Bay Area as well as critics. We soon garnered a fan-following that has made us the preferred dining spot for South Asian culinary delights.",
-    "Over the last decade our restaurant chain has witnessed a fast expansion, including new branches at the MCA Mosque in Santa Clara, Cupertino and the unique café dining experience of Kettle'e Café. Our bold flavors have wowed our patrons and made us a mainstay restaurant for the culinary adventurists.",
+    "Over the last decade our restaurant chain has witnessed a fast expansion, including new branches at  Cupertino and the unique café dining experience of Kettle'e Café. Our bold flavors have wowed our patrons and made us a mainstay restaurant for the culinary adventurists.",
   ]}
 />
 

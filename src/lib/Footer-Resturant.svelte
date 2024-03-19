@@ -17,12 +17,12 @@
   //   address: "20007 Stevens Creek Blvd, Cupertino, CA 95014",
   //   phone: "(408) 247-0745",
   // },
-  {
-   label: "MCA",
-   url: "/locations/MCA",
-   address: "3003 Scott Blvd, Santa Clara, CA 95054",
-   phone: "(408) 247-0745",
-  },
+  //{
+  // label: "MCA",
+  // url: "/locations/MCA",
+  // address: "3003 Scott Blvd, Santa Clara, CA 95054",
+  // phone: "(408) 247-0745",
+ // },
   {
    label: "KETTLE'E",
    url: "/locations/Ketlee",
@@ -60,8 +60,8 @@
     <p class="address">{menu.address}</p>
     <a class="phone" style="text-decoration:none" href={`tel:${menu.phone}`}>{menu.phone}</a>
    </div>
-   {#if index != 2}
-    <hr class="separator" />
+   {#if index != 1}
+    <div class="separator" ></div>
    {/if}
   {/each}
  </div>
@@ -179,7 +179,7 @@
   width: 95%;
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   @include for-size(tablet-landscape-down) {
   }
@@ -193,7 +193,6 @@
 
  .menu:nth-child(n + 1) {
   @include for-size(phone-only) {
-   margin-left: 13%;
    margin-bottom: 25px;
    display: flex;
    justify-content: center;
@@ -216,7 +215,7 @@
   height: 120px;
   width: 0.5px;
   background-color: #cacaca;
-  opacity: 0.5;
+  opacity: 0.9;
 
   @include for-size(tablet-landscape-down) {
    display: none;

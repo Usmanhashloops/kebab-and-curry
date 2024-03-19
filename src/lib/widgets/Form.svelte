@@ -189,7 +189,7 @@
       <option value="" disabled selected >   Select Resturant Branch Name  </option>
         <option value="Santa Clara">Santa Clara</option>
         <option value="Cupertino">Cupertino</option>
-        <option value="MCA">MCA</option>
+       
         <option value="Kettlee">Kettlee</option>
     </select>
      </div> 

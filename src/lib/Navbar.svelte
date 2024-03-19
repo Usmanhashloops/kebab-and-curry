@@ -54,12 +54,12 @@
 
               <a href="/locations/Cupertino" on:click={navToggle}>Cupertino</a>
               <!-- <a title={tooltipText}>MCA</a> -->
-              <a href="/locations/MCA" on:click={navToggle}>MCA</a>
+              <!-- <a href="/locations/MCA" on:click={navToggle}>MCA</a>-->
               <a href="https://www.kettleecafe.com/" on:click={navToggle}>Kettle'e</a>
             </div>
             <div class="dropdown-content-menu">
               <a href="/menu/SantaClara" on:click={navToggle}>Santa Clara</a>
-              <!-- <a href="/menu/Cupertino" on:click={navToggle}>Cupertino</a> -->
+              <a href="/menu/Cupertino" on:click={navToggle}>Cupertino</a>
               <!-- <a title={tooltipText}>MCA</a> -->
               <!-- <a href="/menu/MCA" on:click={navToggle}>MCA</a> -->
               <a href="https://www.kettleecafe.com/menu/Kettlee" on:click={navToggle}>Kettle'e</a>
