@@ -22,7 +22,7 @@
       label: "CUPERTINO",
       url: "/locations/Cupertino",
       address: "20007 Stevens Creek Blvd, Cupertino, CA 95014",
-      phone: "(408) 247-0745",
+      phone: "(669) 230-3993",
     },
     {
       label: "KETTLE'E",
