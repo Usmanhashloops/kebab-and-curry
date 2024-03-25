@@ -1,18 +1,20 @@
 <script>
   import Modal, { getModal } from "./Modal.svelte";
-  import ImageCupertinoSlider from "./image-cupertino-slider.svelte";
   export let slug;
   console.log("slug======>", slug);
-
   let images = [
-    "/location/image6.jpg",
-    "/location/image3.jpg",
-    "/location/image5.jpg",
-    "/location/image7.jpg",
-    "/location/image4.jpg",
-    "/location/image2.jpg",
-    "/location/image1.jpg",
+    "/location/cupertino1.jpg",
+    "/location/cupertino2.jpg",
+    "/location/cupertino3.png",
+    "/location/cupertino4.png",
+    "/location/cupertino5.png",
+    "/location/cupertino6.png",
+    "/location/cupertino7.png",
+    "/location/cupertino8.png",
+    "/location/cupertino9.png",
+    "/location/cupertino10.png",
   ];
+
   import { onMount, onDestroy } from "svelte";
   let currentIndex = 0;
   let intervalId;
@@ -50,89 +52,12 @@
   }
 </script>
 
-{#if slug === "SantaClara"}
-  <div>
-    <div class="slider-container">
-      <div class="title">Through the Looking Glass</div>
-      <div class="image-slider">
-        <button
-          class={`prev-icon ${currentIndex === 0 && "disabled-btn"}`}
-          on:click={prev}
-          disabled={currentIndex === 0}
-        >
-          <svg
-            version="1.2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 52 29"
-            class="svgIconHeightWidth"
-            ><style>
-              .a {
-                fill: #000;
-              }
-              .a.disbaled {
-                fill: gray;
-              }
-            </style>
-            <path
-              class={currentIndex === 0 ? "a disbaled" : "a"}
-              d="m2.5 0.8l25.4 25.5-2.1 2.1-25.4-25.5z"
-            />
-            <path
-              class={currentIndex === 0 ? "a disbaled" : "a"}
-              d="m51.3 2.2l-25.5 25.5-2.1-2.1 25.5-25.5z"
-            />
-          </svg>
-        </button>
-        {#each [currentIndex, currentIndex + 1] as index (index)}
-          {#if images[index]}
-            <img
-              src={images[index]}
-              alt="Slider image"
-              class="object-image"
-              on:click={stopSlider}
-            />
-          {/if}
-        {/each}
-        <!-- <img src={images[currentIndex]} alt="Slider image" on:click={stopSlider} />
-    {#if images[currentIndex + 1]}
-      <img src={images[currentIndex + 1]} alt="Slider image" on:click={stopSlider} />
-    {/if} -->
-
-        <button
-          class={`next-icon ${
-            images.length - 1 === currentIndex && "disabled-btn"
-          }`}
-          on:click={next}
-          disabled={images.length - 1 === currentIndex}
-        >
-          <svg
-            version="1.2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 52 29"
-            class="svgIconHeightWidth"
-            ><style>
-              .a {
-                fill: #000;
-              }
-              .a.disbaled {
-                fill: gray;
-              }
-            </style>
-            <path
-              class={images.length - 1 === currentIndex ? "a disbaled" : "a"}
-              d="m2.5 0.8l25.4 25.5-2.1 2.1-25.4-25.5z"
-            />
-            <path
-              class={images.length - 1 === currentIndex ? "a disbaled" : "a"}
-              d="m51.3 2.2l-25.5 25.5-2.1-2.1 25.5-25.5z"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
-    <Modal {reStartSlider}>
+<div>
+  <div class="slider-container">
+    <div class="title">Through the Looking Glass</div>
+    <div class="image-slider">
       <button
-        class={`prev-iconmodal ${currentIndex === 0 && "disabled-btn"}`}
+        class={`prev-icon ${currentIndex === 0 && "disabled-btn"}`}
         on:click={prev}
         disabled={currentIndex === 0}
       >
@@ -140,7 +65,7 @@
           version="1.2"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 52 29"
-          class="HeightWidth-svgIcon"
+          class="svgIconHeightWidth"
           ><style>
             .a {
               fill: #000;
@@ -159,14 +84,24 @@
           />
         </svg>
       </button>
-      <img
-        src={images[currentIndex + 1]}
-        alt="Slider image"
-        class="image-height"
-        style="object-fit: cover;"
-      />
+      {#each [currentIndex, currentIndex + 1] as index (index)}
+        {#if images[index]}
+          <img
+            src={images[index]}
+            alt="Slider image"
+            class="object-image"
+            style="object-fit: Cover;"
+            on:click={stopSlider}
+          />
+        {/if}
+      {/each}
+      <!-- <img src={images[currentIndex]} alt="Slider image" on:click={stopSlider} />
+      {#if images[currentIndex + 1]}
+        <img src={images[currentIndex + 1]} alt="Slider image" on:click={stopSlider} />
+      {/if} -->
+
       <button
-        class={`next-iconmodal ${
+        class={`next-icon ${
           images.length - 1 === currentIndex && "disabled-btn"
         }`}
         on:click={next}
@@ -176,7 +111,7 @@
           version="1.2"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 52 29"
-          class="HeightWidth-svgIcon"
+          class="svgIconHeightWidth"
           ><style>
             .a {
               fill: #000;
@@ -195,11 +130,74 @@
           />
         </svg>
       </button>
-    </Modal>
+    </div>
   </div>
-{:else if slug === "Cupertino"}
-  <ImageCupertinoSlider />
-{/if}
+  <Modal {reStartSlider}>
+    <button
+      class={`prev-iconmodal ${currentIndex === 0 && "disabled-btn"}`}
+      on:click={prev}
+      disabled={currentIndex === 0}
+    >
+      <svg
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 52 29"
+        class="HeightWidth-svgIcon"
+        ><style>
+          .a {
+            fill: #000;
+          }
+          .a.disbaled {
+            fill: gray;
+          }
+        </style>
+        <path
+          class={currentIndex === 0 ? "a disbaled" : "a"}
+          d="m2.5 0.8l25.4 25.5-2.1 2.1-25.4-25.5z"
+        />
+        <path
+          class={currentIndex === 0 ? "a disbaled" : "a"}
+          d="m51.3 2.2l-25.5 25.5-2.1-2.1 25.5-25.5z"
+        />
+      </svg>
+    </button>
+    <img
+      src={images[currentIndex + 1]}
+      alt="Slider image"
+      class="image-height"
+    />
+    <button
+      class={`next-iconmodal ${
+        images.length - 1 === currentIndex && "disabled-btn"
+      }`}
+      on:click={next}
+      disabled={images.length - 1 === currentIndex}
+    >
+      <svg
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 52 29"
+        class="HeightWidth-svgIcon"
+        ><style>
+          .a {
+            fill: #000;
+          }
+          .a.disbaled {
+            fill: gray;
+          }
+        </style>
+        <path
+          class={images.length - 1 === currentIndex ? "a disbaled" : "a"}
+          d="m2.5 0.8l25.4 25.5-2.1 2.1-25.4-25.5z"
+        />
+        <path
+          class={images.length - 1 === currentIndex ? "a disbaled" : "a"}
+          d="m51.3 2.2l-25.5 25.5-2.1-2.1 25.5-25.5z"
+        />
+      </svg>
+    </button>
+  </Modal>
+</div>
 
 <style lang="scss">
   @import "../../styles/theme.scss";

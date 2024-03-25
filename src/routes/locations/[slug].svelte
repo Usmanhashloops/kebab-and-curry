@@ -140,7 +140,13 @@
 </script>
 
 {#if slug === "SantaClara"}
-  <FullBannerCenterText {scrollToMenu} {slug} h1={title} backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl} p={data.description} />
+  <FullBannerCenterText
+    {scrollToMenu}
+    {slug}
+    h1={title}
+    backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl}
+    p={data.description}
+  />
   <IconTextBanner
     {slug}
     heading="The Journey of Authentic South Asian food  "
@@ -150,27 +156,55 @@
       "With delicious food and a well-rounded menu in a cozy setting, Kabab and Curry's Santa Clara has become a popular mainstay in the Bay Area.",
     ]}
   />
-  <MenuContainer {slug} paragraph={overlayData.timingOne} paragraph2={overlayData.timingTwo} paragraph3={overlayData.timingThree}>
+  <MenuContainer
+    {slug}
+    paragraph={overlayData.timingOne}
+    paragraph2={overlayData.timingTwo}
+    paragraph3={overlayData.timingThree}
+  >
     <div class="container">
       <div class="menu-img-border" />
-      <img src={MyImage} alt="Not found" style="width: 100%; height: 245px;object-fit:cover" />
+      <img
+        src={MyImage}
+        alt="Not found"
+        style="width: 100%; height: 245px;object-fit:cover"
+      />
       <div class="centered">Chicken</div>
     </div>
     <div class="menu-items-background">
       <Menu {slug} itemList={activeMenu} pageData={true} />
     </div>
-    <RectangularButton customClass="custom-class" buttonText="View Menu" buttonUrl="/menu/{slug}" />
+    <RectangularButton
+      customClass="custom-class"
+      buttonText="View Menu"
+      buttonUrl="/menu/{slug}"
+    />
     <br />
   </MenuContainer>
-  <ImageSlider heading="Award-Winning Dining Experience" paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance." />
+  <ImageSlider
+    {slug}
+    heading="Award-Winning Dining Experience"
+    paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance."
+  />
   <BannerImageBg {slug} />
   <ViewMenusAlternate />
   <FooterResturant />
 {:else if slug === "Cupertino"}
-<FullBannerCenterText {scrollToMenu} {slug} h1={title} backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl} p={data.description} />
-<MenuContainer {slug} paragraph={overlayData.timingOne} paragraph2={overlayData.timingTwo} paragraph3={overlayData.timingThree}>
-  <div class="container">
-    <!-- <div class="menu-img-border" />
+  <FullBannerCenterText
+    {scrollToMenu}
+    {slug}
+    h1={title}
+    backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl}
+    p={data.description}
+  />
+  <MenuContainer
+    {slug}
+    paragraph={overlayData.timingOne}
+    paragraph2={overlayData.timingTwo}
+    paragraph3={overlayData.timingThree}
+  >
+    <div class="container">
+      <!-- <div class="menu-img-border" />
     <img src={MyImage} alt="Not found" style="width: 100%; height: 245px;object-fit:cover" />
     <div class="centered">Chicken</div>
   </div>
@@ -178,18 +212,19 @@
     <Menu {slug} itemList={activeMenu} pageData={true} />
   </div>
   <RectangularButton customClass="custom-class" buttonText="View Menu" buttonUrl="/menu/{slug}" /> -->
-  <br />
-</MenuContainer>
-<IconTextBanner
-  {slug}
-  heading="South Asian Cuisine for Everyone"
-  paragraphs={[
-    "Kabab & Curry’s now comes to Cupertino in the heart of the California region, bringing that same authentic South Asian taste to even more people in the Bay Area.",
-    "Continuing on our mission to provide an excellent South Asian dining experience, we bring our signature taste to a wider, more diverse audience. Our Cupertino branch is another feather in our cap with all the traditional hallmarks of the Kabab & Curry’s brand.",
-    "If you haven’t already, we welcome you to join us at Kabab & Curry’s Cupertino for an amazing time with some of the best foods on the planet, our guarantee.",
-  ]}
-/>
-<!-- <MenuContainer {slug} paragraph={overlayData.timingOne} paragraph2={overlayData.timingTwo} paragraph3={overlayData.timingThree}>
+      <br />
+    </div></MenuContainer
+  >
+  <IconTextBanner
+    {slug}
+    heading="South Asian Cuisine for Everyone"
+    paragraphs={[
+      "Kabab & Curry’s now comes to Cupertino in the heart of the California region, bringing that same authentic South Asian taste to even more people in the Bay Area.",
+      "Continuing on our mission to provide an excellent South Asian dining experience, we bring our signature taste to a wider, more diverse audience. Our Cupertino branch is another feather in our cap with all the traditional hallmarks of the Kabab & Curry’s brand.",
+      "If you haven’t already, we welcome you to join us at Kabab & Curry’s Cupertino for an amazing time with some of the best foods on the planet, our guarantee.",
+    ]}
+  />
+  <!-- <MenuContainer {slug} paragraph={overlayData.timingOne} paragraph2={overlayData.timingTwo} paragraph3={overlayData.timingThree}>
   <div class="container">
     <div class="menu-img-border" />
     <img src={MyImage} alt="Not found" style="width: 100%; height: 245px;object-fit:cover" />
@@ -201,13 +236,23 @@
   <RectangularButton customClass="custom-class" buttonText="View Menu" buttonUrl="/menu/{slug}" />
   <br />
 </MenuContainer> -->
-<ImageSlider heading="Award-Winning Dining Experience" paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance." />
-<BannerImageBg {slug} />
-<ViewMenusAlternate />
-<FooterResturant />
+  <ImageSlider
+    {slug}
+    heading="Award-Winning Dining Experience"
+    paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance."
+  />
+  <BannerImageBg {slug} />
+  <ViewMenusAlternate />
+  <FooterResturant />
   <!-- <ComingSoon /> -->
 {:else if slug === "MCA"}
-  <FullBannerCenterText {scrollToMenu} {slug} h1={title} backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl} p={data.description} />
+  <FullBannerCenterText
+    {scrollToMenu}
+    {slug}
+    h1={title}
+    backgroundImageUrl={restaurantData[0].bannerBackgroundImageUrl}
+    p={data.description}
+  />
   <IconTextBanner
     {slug}
     heading="Serving Our Community "
@@ -229,7 +274,10 @@
   <RectangularButton customClass="custom-class" buttonText="View Menu" buttonUrl="/menu/{slug}" />
   <br /> -->
   <!-- </MenuContainer> -->
-  <ImageSlider heading="Award-Winning Dining Experience" paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance." />
+  <ImageSlider
+    heading="Award-Winning Dining Experience"
+    paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance."
+  />
   <BannerImageBg {slug} />
   <ViewMenusAlternate />
   <FooterResturant />
