@@ -2006,7 +2006,7 @@ export let restaurantData = [
             src: " /location/cutlery.png",
           },
           {
-            title: "Cafe ALtte",
+            title: "Cafe Altte",
             description: "",
             cost: "$6.00",
             //Done
